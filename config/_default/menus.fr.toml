@@ -1,0 +1,211 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+ name = "Vie"
+ weight = 20
+
+[[main]]
+ name = "Vie :)"
+ parent = "Vie"
+ pageRef = "life"
+ weight = 21
+
+[[main]]
+ name = "Apprendre"
+ parent = "Vie"
+ pageRef = "life/study"
+ weight = 22
+
+
+[[main]]
+ name = "Mouvement"
+ parent = "Vie"
+ pageRef = "life/sport"
+ weight = 23
+
+[[main]]
+ name = "Langue rare"
+ parent = "Vie"
+ pageRef = "life/language"
+ weight = 24
+
+[[main]]
+ name = "Art"
+ weight = 30
+
+[[main]]
+ name = "Art :)"
+ parent = "Art"
+ pageRef = "art"
+ weight = 31
+
+[[main]]
+ name = "Littérature"
+ parent = "Art"
+ pageRef = "art/literature"
+ weight = 32
+
+[[main]]
+ name = "Peinture"
+ parent = "Art"
+ pageRef = "art/painting"
+ weight = 33
+
+[[main]]
+ name = "Musique"
+ parent = "Art"
+ pageRef = "art/music"
+ weight = 34
+ 
+[[main]]
+ name = "Film"
+ parent = "Art"
+ pageRef = "art/film"
+ weight = 35
+
+[[main]]
+ name = "Science"
+ weight = 40
+
+[[main]]
+ name = "Science :)"
+ parent = "Science"
+ pageRef = "science"
+ weight = 41
+
+[[main]]
+ name = "Ordinateur"
+ parent = "Science"
+ pageRef = "science/computer"
+ weight = 42
+
+[[main]]
+ name = "Mathématiques"
+ parent = "Science"
+ pageRef = "science/mathematics"
+ weight = 43
+
+[[main]]
+ name = "Physique"
+ parent = "Science"
+ pageRef = "science/physics"
+ weight = 44
+
+[[main]]
+ name = "Astronomie"
+ parent = "Science"
+ pageRef = "science/astronomy"
+ weight = 45
+
+[[main]]
+ name = "Autre"
+ weight = 50
+
+[[main]]
+ name = "Autre :)"
+ parent = "Autre"
+ pageRef = "other"
+ weight = 51
+
+[[main]]
+ name = "Géographie"
+ parent = "Autre"
+ pageRef = "other/geography"
+ weight = 52
+
+[[main]]
+ name = "Histoire"
+ parent = "Autre"
+ pageRef = "other/history"
+ weight = 53
+
+[[main]]
+ name = "Vie0123"
+ weight = 80
+
+[[main]]
+ name = "Vie | 0123"
+ parent = "Vie0123"
+ pageRef = "life0123"
+ weight = 81
+
+[[main]]
+ name = "Vie | 0"
+ parent = "Vie0123"
+ pageRef = "life0123/life0"
+ weight = 82
+
+[[main]]
+ name = "Art | 1"
+ parent = "Vie0123"
+ pageRef = "life0123/art1"
+ weight = 83
+
+[[main]]
+ name = "Science | 2"
+ parent = "Vie0123"
+ pageRef = "life0123/science2"
+ weight = 84
+
+[[main]]
+ name = "Autre | 3"
+ parent = "Vie0123"
+ pageRef = "life0123/other3"
+ weight = 85
+
+[[subnavigation]]
+ name = "ParoleEtAction"
+ pageRef = "day/dayQuote"
+ weight = 91
+
+[[subnavigation]]
+ name = "PoésieEtLittérature"
+ pageRef = "day/dayPoetry"
+ weight = 92
+
+[[subnavigation]]
+ name = "PeintureEsthétique"
+ pageRef = "day/dayPaint"
+ weight = 93
+
+[[subnavigation]]
+ name = "MélodieSonore"
+ pageRef = "day/dayMusic"
+ weight = 94
+
+[[subnavigation]]
+ name = "AudioVisuel"
+ pageRef = "day/dayFilm"
+ weight = 95
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+[[footer]]
+ name = "Archiver"
+ pageRef = "archives"
+ weight = 10
+
+[[footer]]
+  name = "Étiquette"
+  pageRef = "tags"
+  weight = 11
+
+[[footer]]
+  name = "Classification"
+  pageRef = "categories"
+  weight = 12
+
+
