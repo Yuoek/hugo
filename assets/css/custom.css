@@ -3,28 +3,44 @@
   max-width: none !important;  
 }
 
+/* 优化字体加载优先级 */
 /* 设置中文字体 */
 @font-face {
     font-family: 'ChineseFont';
     src: url('/fonts/ChillKai.woff') format('woff');
-    unicode-range: U+4E00-9FFF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF; /* 中文字符、平假名、片假名、全角字符范围 */
+    font-display: swap; /* 优化字体加载行为 */
+    unicode-range: U+4E00-9FFF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF;
 }
+
 /* 设置英文字体 */
 @font-face {
     font-family: 'EnglishFont';
     src: url('/fonts/HanaMinA.ttf');
+    font-display: swap; /* 优化字体加载行为 */
     unicode-range: 
-        U+0000-007F,        /* 基本拉丁字符（英文） */
         U+0000-007F,        /* 基本拉丁字符（英文） */
         U+0080-00FF,        /* 拉丁文补充1（常见西欧字符） */
         U+0100-017F,        /* 拉丁文扩展A（更多西欧字符） */
-        U+0180-024F,        /* 拉丁文扩展B（包括法语、西班牙语特殊字符） */
+        U+0180-024F;        /* 拉丁文扩展B（包括法语、西班牙语特殊字符） */
 }
 
 html {
-    font-family:  'ChineseFont','EnglishFont';
+    font-family: 'ChineseFont', 'EnglishFont', sans-serif; /* 添加备用字体 */
     font-size: 14pt;
 }
+
+/* 添加字体预加载优化 */
+link[rel="preload"] {
+    as: "font";
+    type: "font/woff";
+    crossorigin: "anonymous";
+}
+
+/* 优化字体加载性能 */
+body {
+    font-display: optional; /* 确保文本始终可见 */
+}
+
 
 h1 {
     color: #ee98e3de;
