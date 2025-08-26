@@ -11,6 +11,7 @@ series_order: 1
 
 ## 虞 OK
 
+![pic](https://gitee.com/yuoek/images/raw/master/pic/250717_17h03m15s_screenshot.png)
 
 ![image](https://user-images.githubusercontent.com/5492542/47603494-28e90000-da1f-11e8-9079-30646e551e7a.gif)
 
