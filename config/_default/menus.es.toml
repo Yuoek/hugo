@@ -1,0 +1,211 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+ name = "Vida"
+ weight = 20
+
+[[main]]
+ name = "Vida :)"
+ parent = "Vida"
+ pageRef = "life"
+ weight = 21
+
+[[main]]
+ name = "Aprender"
+ parent = "Vida"
+ pageRef = "life/study"
+ weight = 22
+
+
+[[main]]
+ name = "Deporte"
+ parent = "Vida"
+ pageRef = "life/sport"
+ weight = 23
+
+[[main]]
+ name = "IdiomaMinoritario"
+ parent = "Vida"
+ pageRef = "life/language"
+ weight = 24
+
+[[main]]
+ name = "Arte"
+ weight = 30
+
+[[main]]
+ name = "Arte :)"
+ parent = "Arte"
+ pageRef = "art"
+ weight = 31
+
+[[main]]
+ name = "Literatura"
+ parent = "Arte"
+ pageRef = "art/literature"
+ weight = 32
+
+[[main]]
+ name = "Pintura"
+ parent = "Arte"
+ pageRef = "art/painting"
+ weight = 33
+
+[[main]]
+ name = "Música"
+ parent = "Arte"
+ pageRef = "art/music"
+ weight = 34
+ 
+[[main]]
+ name = "Película"
+ parent = "Arte"
+ pageRef = "art/film"
+ weight = 35
+
+[[main]]
+ name = "Ciencia"
+ weight = 40
+
+[[main]]
+ name = "Ciencia :)"
+ parent = "Ciencia"
+ pageRef = "science"
+ weight = 41
+
+[[main]]
+ name = "Computadora"
+ parent = "Ciencia"
+ pageRef = "science/computer"
+ weight = 42
+
+[[main]]
+ name = "Matemáticas"
+ parent = "Ciencia"
+ pageRef = "science/mathematics"
+ weight = 43
+
+[[main]]
+ name = "Física"
+ parent = "Ciencia"
+ pageRef = "science/physics"
+ weight = 44
+
+[[main]]
+ name = "Astronomía"
+ parent = "Ciencia"
+ pageRef = "science/astronomy"
+ weight = 45
+
+[[main]]
+ name = "Resto"
+ weight = 50
+
+[[main]]
+ name = "Resto :)"
+ parent = "Resto"
+ pageRef = "other"
+ weight = 51
+
+[[main]]
+ name = "Geografía"
+ parent = "Resto"
+ pageRef = "other/geography"
+ weight = 52
+
+[[main]]
+ name = "Historia"
+ parent = "Resto"
+ pageRef = "other/history"
+ weight = 53
+
+[[main]]
+ name = "Vida0123"
+ weight = 80
+
+[[main]]
+ name = "Vida | 0123"
+ parent = "Vida0123"
+ pageRef = "life0123"
+ weight = 81
+
+[[main]]
+ name = "Vida | 0"
+ parent = "Vida0123"
+ pageRef = "life0123/life0"
+ weight = 82
+
+[[main]]
+ name = "Arte | 1"
+ parent = "Vida0123"
+ pageRef = "life0123/art1"
+ weight = 83
+
+[[main]]
+ name = "Ciencia | 2"
+ parent = "Vida0123"
+ pageRef = "life0123/science2"
+ weight = 84
+
+[[main]]
+ name = "Resto | 3"
+ parent = "Vida0123"
+ pageRef = "life0123/other3"
+ weight = 85
+
+[[subnavigation]]
+ name = "PalabraYAcción"
+ pageRef = "day/dayQuote"
+ weight = 91
+
+[[subnavigation]]
+ name = "PoesíaYLiteratura"
+ pageRef = "day/dayPoetry"
+ weight = 92
+
+[[subnavigation]]
+ name = "PinturaEstética"
+ pageRef = "day/dayPaint"
+ weight = 93
+
+[[subnavigation]]
+ name = "PartituraSonora"
+ pageRef = "day/dayMusic"
+ weight = 94
+
+[[subnavigation]]
+ name = "AudioVisual"
+ pageRef = "day/dayFilm"
+ weight = 95
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+[[footer]]
+ name = "Archivar"
+ pageRef = "archives"
+ weight = 10
+
+[[footer]]
+  name = "Etiqueta"
+  pageRef = "tags"
+  weight = 11
+
+[[footer]]
+  name = "Clasificación"
+  pageRef = "categories"
+  weight = 12
+
+
