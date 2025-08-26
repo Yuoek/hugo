@@ -21,14 +21,13 @@
         U+0180-024F,        /* 拉丁文扩展B（包括法语、西班牙语特殊字符） */
 }
 
+html {
+    font-family:  'ChineseFont','EnglishFont';
+    font-size: 14pt;
+}
 
 h1 {
     color: #ee98e3de;
-}
-
-html {
-    font-family: 'EnglishFont', 'ChineseFont', sans-serif;
-    font-size: 14pt;
 }
 
 /* Blowfish congo主题 灰度字修改 */ 
