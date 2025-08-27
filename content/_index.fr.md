@@ -22,8 +22,6 @@ loop=true
 <font color="#7cc0e7"> Rencontrer l'amour avec toi ! </font>  
 {{< /typeit >}}
 
-<meting-js
-    name="Je m'appelle Hélène"
     id="fixed-aplayer"
     artist="Hélène Rolles"
     url="/voice/kugou/sophieSong/Je m'appelle Hélène - Hélène Rolles/Je m'appelle Hélène.mp3 "
@@ -32,5 +30,4 @@ loop=true
     autoplay="true"
     loop="false"
     mutex="true">
-</meting-js>
 
