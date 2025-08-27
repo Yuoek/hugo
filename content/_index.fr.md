@@ -22,12 +22,16 @@ loop=true
 <font color="#7cc0e7"> Rencontrer l'amour avec toi ! </font>  
 {{< /typeit >}}
 
-    id="fixed-aplayer"
+
+<meting-js
     artist="Hélène Rolles"
+    id="fixed-aplayer"
     url="/voice/kugou/sophieSong/Je m'appelle Hélène - Hélène Rolles/Je m'appelle Hélène.mp3 "
     cover="/voice/kugou/sophieSong/Je m'appelle Hélène - Hélène Rolles/Je m'appelle Hélène_封面.jpg"
     lrc="/voice/kugou/sophieSong/Je m'appelle Hélène - Hélène Rolles/Je m'appelle Hélène_合并歌词.lrc" 
     autoplay="true"
     loop="false"
     mutex="true">
+</meting-js>
+
 

@@ -24,13 +24,13 @@ date: 2025-08-23
 
 <meting-js
     name="Keep Your Head Up Princess"
+    id="fixed-aplayer"
     artist="Anson Seabra"
     url="/voice/kugou/sophieSong/Keep Your Head Up Princess - Anson Seabra/Keep Your Head Up Princess.mp3"
     cover="/voice/kugou/sophieSong/Keep Your Head Up Princess - Anson Seabra/Keep Your Head Up Princess_封面.jpg"
     lrc="/voice/kugou/sophieSong/Keep Your Head Up Princess - Anson Seabra/Keep Your Head Up Princess_合并歌词.lrc" 
     autoplay="true"
     loop="false"
-    fixed="true"
     mutex="true">
 </meting-js>
 

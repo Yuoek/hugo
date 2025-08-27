@@ -208,3 +208,15 @@
   weight = 12
 
 
+[[footer]]
+  name = "friends"
+  pageRef = "friends"
+  weight = 13
+
+
+[[footer]]
+  name = "Sophie"
+  pageRef = "sophie"
+  weight = 14
+
+
