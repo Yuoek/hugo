@@ -7,6 +7,28 @@
         -webkit-transform-origin: 0 0;
         transform: scale(0.8);
         transform-origin: 0 0;
+        margin: 0 auto; /* 添加水平居中 */
+        width: 100%; /* 确保宽度为100% */
+        display: flex; /* 使用flex布局实现居中 */
+        flex-direction: column; /* 垂直方向排列 */
+        align-items: center; /* 水平居中 */
+        justify-content: center; /* 垂直居中 */
+    }
+}
+
+/* 如果需要更精确的居中控制，可以添加以下代码 */
+@media screen and (max-width: 768px) {
+    html, body {
+        height: 100%; /* 确保html和body高度为100% */
+    }
+}
+
+/* 如果页面有主要内容容器，建议对容器进行居中设置 */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%; /* 防止溢出 */
     }
 }
 
