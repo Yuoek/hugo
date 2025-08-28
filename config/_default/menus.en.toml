@@ -188,7 +188,7 @@
  pageRef = "day/dayFilm"
  weight = 95
 
-[[footer]]
+[[subnavigation]]
   name = "Sophie"
   pageRef = "sophie"
   weight = 96

@@ -12,6 +12,6 @@ lifeLike=true
 breakLines=false
 loop=true
 >}}
-<font color="#ee98e3de">&nbsp&nbsp&nbspDear Sophie: </font><font color="#7cc0e7"> 很高兴能够遇见你! </font>
+<font color="#ee98e3de">&nbsp&nbsp&nbspDear Sophie: </font><font color="#7cc0e7"> ¡Encantado de conocerte! </font>
 {{< /typeit >}}
 
