@@ -188,6 +188,12 @@
  pageRef = "day/dayFilm"
  weight = 95
 
+[[subnavigation]]
+  name = "Sophie"
+  pageRef = "sophie"
+  weight = 96
+
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
@@ -213,11 +219,5 @@
   name = "友链"
   pageRef = "friends"
   weight = 13
-
-
-[[footer]]
-  name = "Sophie"
-  pageRef = "sophie"
-  weight = 14
 
 

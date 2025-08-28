@@ -188,6 +188,11 @@
  pageRef = "day/dayFilm"
  weight = 95
 
+[[footer]]
+  name = "Sophie"
+  pageRef = "sophie"
+  weight = 96
+
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
@@ -214,9 +219,5 @@
   weight = 13
 
 
-[[footer]]
-  name = "Sophie"
-  pageRef = "sophie"
-  weight = 14
 
 
