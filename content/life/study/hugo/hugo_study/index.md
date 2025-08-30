@@ -24,17 +24,10 @@ type: "posts"
     url="/voice/kugou/sophieSong/I Really Want to Stay at Your House - Rosa Walton_Hallie Coggins/I Really Want to Stay at Your House.mp3 "
     cover="/voice/kugou/sophieSong/I Really Want to Stay at Your House - Rosa Walton_Hallie Coggins/cyberpunk_lucy_moon.jpg"
     lrc="/voice/kugou/sophieSong/I Really Want to Stay at Your House - Rosa Walton_Hallie Coggins/I Really Want to Stay at Your House_合并歌词.lrc" 
-    autoplay="true"
+    autoplay="false"
     loop="false"
     mutex="true">
 </meting-js>
-
-
-Dear Sophie 亲爱的苏菲:
-
-之前在豆瓣有看到一篇作者在北爱尔兰圣三一学院留学的文章。昨天在学习搭建 Hugo 博客时又发现一位客友的博文，今天看到一篇留学 DIY 的文章，原来客友去年到荷兰留学了，好厉害！   
-加油，相信自己也一定可以的，**而且 Sophie 也一定会去伦敦的！** (2025-08-23 20:13)
-
 
 
 ## **添加** mermaid 

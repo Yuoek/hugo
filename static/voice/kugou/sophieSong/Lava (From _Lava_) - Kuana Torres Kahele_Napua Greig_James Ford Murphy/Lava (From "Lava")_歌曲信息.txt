@@ -1,0 +1,10 @@
+{
+  "歌曲名称": "Lava (From \"Lava\")",
+  "歌手": "Kuana Torres Kahele/Napua Greig/James Ford Murphy",
+  "专辑": "Lava",
+  "音质": "极高音质",
+  "文件大小": "13.22 MB",
+  "比特率": "320000kbps",
+  "歌曲ID": "33668261",
+  "下载时间": "2025/8/30 01:34:41"
+}

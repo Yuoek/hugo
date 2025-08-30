@@ -14,7 +14,7 @@ date: 2025-08-23
 tag=h2
 speed=100
 lifeLike=true
-breakLines=false
+breakLines=true
 loop=true
 >}}
 <font color="#ee98e3de"> 亲爱的 Yuoek: </font>

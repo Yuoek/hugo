@@ -17,7 +17,7 @@ type: "posts"
 
 
 
-## 示例
+## Chart-js 示例
 
 
 ### chart 1

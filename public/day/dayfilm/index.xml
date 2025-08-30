@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day Music on Yuoek</title>
+    <link>http://localhost:1313/day/dayfilm/</link>
+    <description>Recent content in Day Music on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>youremail@example.com (肖吟)</managingEditor>
+    <webMaster>youremail@example.com (肖吟)</webMaster>
+    <copyright>© 2025 肖吟</copyright>
+    <lastBuildDate>Tue, 26 Aug 2025 22:54:11 +0800</lastBuildDate><atom:link href="http://localhost:1313/day/dayfilm/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

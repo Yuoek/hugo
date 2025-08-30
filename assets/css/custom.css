@@ -1,4 +1,4 @@
-
+/*------------------------------------------------------------------------*/
 /* 取肖最大限制宽度 */
 .max-w-prose {  
   max-width: none !important;  
@@ -25,10 +25,41 @@
         U+0180-024F;        /* 拉丁文扩展B（包括法语、西班牙语特殊字符） */
 }
 
+@font-face {
+    font-family: 'letterfont-zh';
+    src: url('/fonts/zqp.ttf') format('truetype');
+}
+.fonts-letter-zh {
+    font-family: 'letterfont-zh', sans-serif;
+    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+}
+
+@font-face {
+    font-family: 'catalinafont';
+    src: url('static/fonts/Catalina.ttf') format('truetype');
+}
+.fonts-catalina {
+    font-family: 'catalinafont', sans-serif;
+    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+}
+
+@font-face {
+    font-family: 'verondsonfont';
+    src: url('/fonts/VerondSon-Regular.ttf') format('truetype');
+}
+
+.fonts-verondson {
+    font-family: 'verondsonfont', sans-serif;
+    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+}
+
 html {
     font-family: 'ChineseFont', 'EnglishFont', sans-serif; /* 添加备用字体 */
     font-size: 14pt;
 }
+
+
+
 
 /* 添加字体预加载优化 */
 link[rel="preload"] {
@@ -299,4 +330,229 @@ canvas {
 }
 
 
-/* -------------------------------------------------------------------------*/
+
+
+/* ---------- 友链卡片样式开始 ---------- */
+.friend-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: transparent !important;
+  backdrop-filter: blur(55px);
+  -webkit-backdrop-filter: blur(65px);
+}
+
+a.friend-link {
+  text-decoration: none;
+  color: inherit;
+  background-size: 0 !important;
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem auto;
+  text-decoration: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: transparent !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+a.friend-link:hover {
+  text-decoration: none;
+  color: inherit;
+  background-size: 0 !important;
+  transform: translateY(-2px);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+} 
+
+.friend-link-div {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.friend-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-right: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.friend-link-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.friend-name {
+  font-size: 16px;
+  font-weight: bolder;
+  font-style: normal;
+  color: #333;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 12px;
+}
+
+.friend-bio {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 12px;
+}
+
+/* 夜间模式适配 */
+.dark .friend-link-container {
+  background: transparent !important;
+}
+
+.dark .friend-link {
+  background: transparent !important;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .friend-name {
+  color: #eee;
+}
+
+.dark .friend-bio {
+  color: #DDD;
+}
+
+.dark .friend-avatar {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* 响应式优化 */
+@media screen and (max-width: 600px) {
+  .friend-link-container {
+    padding: 15px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  
+  .friend-link-div {
+    flex-direction: row;
+    padding: 12px 16px;
+  }
+
+  .friend-avatar {
+    width: 56px;
+    height: 56px;
+    margin-right: 12px;
+  }
+
+  .friend-name {
+    font-size: 16px;
+  }
+
+  .friend-bio {
+    font-size: 14px;
+  }
+}
+
+/* 添加毛玻璃效果过渡动画 */
+.friend-link-container,
+.friend-link {
+  transition: backdrop-filter 0.3s ease, background 0.3s ease;
+}
+
+/* 增强毛玻璃效果的层级 */
+.friend-link-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  z-index: -1;
+}
+
+/* 确保内容在模糊背景上层 */
+.friend-link-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* 头像旋转 */
+.friend-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-right: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+a.friend-link:hover .friend-avatar {
+  transform: rotate(360deg);
+}
+
+/*------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'letterfont-zh';
+    src: url('/fonts/zqp.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'catalinafont';
+    src: url('/fonts/Catalina.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'hastheyafont';
+    src: url('/fonts/Hastheya.otf') format('truetype');
+}
+@font-face {
+    font-family: 'verondsonfont';
+    src: url('/fonts/VerondSon-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'delphiaVillagefont';
+    src: url('/fonts/DelphiaVillage.otf') format('truetype');
+}
+/* ------------------------------------ */
+.fonts-letter-zh {
+    font-family: 'letterfont-zh', sans-serif;
+    /* color: #7cc0e7; */
+    color: rgba(2, 2, 2, 1);
+    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+}
+.fonts-catalina {
+    font-family: 'catalinafont', sans-serif;
+    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+}
+.fonts-hastheya {
+    font-family: 'hastheyafont', sans-serif;
+    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+}
+.fonts-verondson {
+    font-family: 'verondsonfont', sans-serif;
+    font-size: 40px;
+}
+.fonts-delphiaVillagefont {
+    font-family: 'delphiaVillagefont', sans-serif;
+    font-size: 48px;
+    color: #ee98e3de;
+}
+
+
+

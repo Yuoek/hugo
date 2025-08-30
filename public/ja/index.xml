@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuoek_ja on Yuoek</title>
+    <link>http://localhost:1313/ja/</link>
+    <description>Recent content in Yuoek_ja on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>youremail@example.com (Yuoek)</managingEditor>
+    <webMaster>youremail@example.com (Yuoek)</webMaster>
+    <copyright>© 2025 Yuoek</copyright>
+    <lastBuildDate>Sat, 23 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ja/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Letters</title>
+      <link>http://localhost:1313/ja/sophie/letter/</link>
+      <pubDate>Fri, 29 Aug 2025 23:32:40 +0800</pubDate>
+      <author>youremail@example.com (Yuoek)</author>
+      <guid>http://localhost:1313/ja/sophie/letter/</guid>
+      <description>给 Sophie 的信 | 📬</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/sophie/letter/featured.png" />
+    </item>
+    
+    <item>
+      <title>友情链接</title>
+      <link>http://localhost:1313/ja/friends/</link>
+      <pubDate>Thu, 28 Aug 2025 15:45:56 +0800</pubDate>
+      <author>youremail@example.com (Yuoek)</author>
+      <guid>http://localhost:1313/ja/friends/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/friends/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
