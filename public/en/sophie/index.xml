@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>To Sophie  on Yuoek</title>
+    <link>http://localhost:1313/en/sophie/</link>
+    <description>Recent content in To Sophie  on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youremail@example.com (Yuoek)</managingEditor>
+    <webMaster>youremail@example.com (Yuoek)</webMaster>
+    <copyright>© 2025 Yuoek</copyright>
+    <lastBuildDate>Tue, 26 Aug 2025 22:54:11 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/sophie/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Letters</title>
+      <link>http://localhost:1313/en/sophie/letter/</link>
+      <pubDate>Fri, 29 Aug 2025 23:32:40 +0800</pubDate>
+      <author>youremail@example.com (Yuoek)</author>
+      <guid>http://localhost:1313/en/sophie/letter/</guid>
+      <description>The letters from Yuoek to Sophie | 📬</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/sophie/letter/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

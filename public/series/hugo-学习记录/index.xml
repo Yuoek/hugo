@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 学习记录 on Yuoek</title>
+    <link>http://localhost:1313/series/hugo-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in Hugo 学习记录 on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>youremail@example.com (肖吟)</managingEditor>
+    <webMaster>youremail@example.com (肖吟)</webMaster>
+    <copyright>© 2025 肖吟</copyright>
+    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/hugo-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo_shortcodes</title>
+      <link>http://localhost:1313/life/study/hugo/hugo_shortcodes/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:1313/life/study/hugo/hugo_shortcodes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo Chart 图表</title>
+      <link>http://localhost:1313/life/study/hugo/hugo_chart/</link>
+      <pubDate>Wed, 27 Aug 2025 15:13:54 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:1313/life/study/hugo/hugo_chart/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo 教程</title>
+      <link>http://localhost:1313/life/study/hugo/hugo_jiao_cheng/</link>
+      <pubDate>Mon, 25 Aug 2025 08:07:33 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:1313/life/study/hugo/hugo_jiao_cheng/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo 添加音乐</title>
+      <link>http://localhost:1313/life/study/hugo/hugo_music/</link>
+      <pubDate>Sun, 24 Aug 2025 09:30:28 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:1313/life/study/hugo/hugo_music/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo 学习之旅</title>
+      <link>http://localhost:1313/life/study/hugo/hugo_study/</link>
+      <pubDate>Sat, 23 Aug 2025 21:02:02 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:1313/life/study/hugo/hugo_study/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/life/study/hugo/</link>
+      <pubDate>Sat, 23 Aug 2025 20:23:03 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:1313/life/study/hugo/</guid>
+      <description>2021年接触了 Hexo, 2025年开始学习 Hugo</description>
+      
+    </item>
+    
+  </channel>
+</rss>
