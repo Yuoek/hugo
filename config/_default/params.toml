@@ -25,7 +25,7 @@ disableTextInHeader = false
 backgroundImageWidth = 1200
 
 # defaultBackgroundImage = "img/197-sandbox1.png" # used as default for background images 
-defaultBackgroundImage = "img/197-sandbox1.png" # used as default for background images 
+defaultBackgroundImage = "img/letter.jpg" # used as default for background images 
 defaultFeaturedImage = "img/197-sndbox1.png" # used as default for featured images in all articles
 # defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 
@@ -84,14 +84,14 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
+  showReadingTime = false
   showTableOfContents = true
   showRelatedContent = false
 #   relatedContentLimit = 3
   showTaxonomies = true # use showTaxonomies OR showCategoryOnly, not both
   showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
   showAuthorsBadges = false
-  showWordCount = true
+  showWordCount = false
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
   showZenMode = false
   # Add comment

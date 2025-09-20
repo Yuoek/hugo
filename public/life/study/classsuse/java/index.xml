@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAVA 课程 on Yuoek</title>
+    <link>http://localhost:8080/life/study/classsuse/java/</link>
+    <description>Recent content in JAVA 课程 on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>youremail@example.com (肖吟)</managingEditor>
+    <webMaster>youremail@example.com (肖吟)</webMaster>
+    <copyright>© 2025 肖吟</copyright>
+    <lastBuildDate>Fri, 22 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8080/life/study/classsuse/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JAVA 课程笔记📑 </title>
+      <link>http://localhost:8080/life/study/classsuse/java/notes/</link>
+      <pubDate>Sun, 14 Sep 2025 19:12:26 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:8080/life/study/classsuse/java/notes/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

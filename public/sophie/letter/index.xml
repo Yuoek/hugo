@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>给 Sophie 的信 on Yuoek</title>
+    <link>http://localhost:8087/sophie/letter/</link>
+    <description>Recent content in 给 Sophie 的信 on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>youremail@example.com (肖吟)</managingEditor>
+    <webMaster>youremail@example.com (肖吟)</webMaster>
+    <copyright>© 2025 肖吟</copyright>
+    <lastBuildDate>Wed, 10 Sep 2025 20:09:22 +0800</lastBuildDate><atom:link href="http://localhost:8087/sophie/letter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Please Don&#39;t Crying</title>
+      <link>http://localhost:8087/sophie/letter/please-dont-crying/</link>
+      <pubDate>Tue, 16 Sep 2025 18:25:40 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:8087/sophie/letter/please-dont-crying/</guid>
+      <description>请不要在心灵上哭泣 | 📬</description>
+      
+    </item>
+    
+    <item>
+      <title>We will Bloom</title>
+      <link>http://localhost:8087/sophie/letter/we-will-bloom/</link>
+      <pubDate>Wed, 10 Sep 2025 20:12:11 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:8087/sophie/letter/we-will-bloom/</guid>
+      <description>人见人爱，花见花开 | 📬</description>
+      
+    </item>
+    
+    <item>
+      <title>Light of Future </title>
+      <link>http://localhost:8087/sophie/letter/light-of-featury/</link>
+      <pubDate>Thu, 04 Sep 2025 18:30:40 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:8087/sophie/letter/light-of-featury/</guid>
+      <description>开往未来的绿皮火车 | 📬</description>
+      
+    </item>
+    
+    <item>
+      <title>All or Nothing</title>
+      <link>http://localhost:8087/sophie/letter/all-or-nothing/</link>
+      <pubDate>Fri, 29 Aug 2025 23:32:40 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:8087/sophie/letter/all-or-nothing/</guid>
+      <description>给 Sophie 的信 | 📬</description>
+      
+    </item>
+    
+    <item>
+      <title>Love and Dream </title>
+      <link>http://localhost:8087/sophie/letter/love-and-dream/</link>
+      <pubDate>Fri, 29 Aug 2025 20:20:40 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:8087/sophie/letter/love-and-dream/</guid>
+      <description>一分耕耘，一分收获 | 📬</description>
+      
+    </item>
+    
+    <item>
+      <title>To Find You </title>
+      <link>http://localhost:8087/sophie/letter/to-find-you/</link>
+      <pubDate>Tue, 12 Aug 2025 21:15:40 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:8087/sophie/letter/to-find-you/</guid>
+      <description>艾特熊的我与赛娜鼠的你 | 📬</description>
+      
+    </item>
+    
+  </channel>
+</rss>

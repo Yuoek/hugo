@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuoek_fr on Yuoek</title>
+    <link>http://localhost:8087/fr/</link>
+    <description>Recent content in Yuoek_fr on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <managingEditor>youremail@example.com (Yuoek)</managingEditor>
+    <webMaster>youremail@example.com (Yuoek)</webMaster>
+    <copyright>© 2025 Yuoek</copyright>
+    <lastBuildDate>Sat, 23 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8087/fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>All or Nothing</title>
+      <link>http://localhost:8087/fr/sophie/letter/all-or-nothing/</link>
+      <pubDate>Fri, 29 Aug 2025 23:32:40 +0800</pubDate>
+      <author>youremail@example.com (Yuoek)</author>
+      <guid>http://localhost:8087/fr/sophie/letter/all-or-nothing/</guid>
+      <description>The letters from Yuoek to Sophie | 📬</description>
+      
+    </item>
+    
+    <item>
+      <title>友情链接</title>
+      <link>http://localhost:8087/fr/friends/</link>
+      <pubDate>Thu, 28 Aug 2025 15:45:56 +0800</pubDate>
+      <author>youremail@example.com (Yuoek)</author>
+      <guid>http://localhost:8087/fr/friends/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:8087/friends/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

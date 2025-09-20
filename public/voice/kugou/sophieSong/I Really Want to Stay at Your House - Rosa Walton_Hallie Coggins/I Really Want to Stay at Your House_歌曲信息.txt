@@ -1,0 +1,10 @@
+{
+  "歌曲名称": "I Really Want to Stay at Your House",
+  "歌手": "Rosa Walton/Hallie Coggins",
+  "专辑": "Cyberpunk 2077: Radio, Vol. 2 (Original Soundtrack)",
+  "音质": "极高音质",
+  "文件大小": "9.41 MB",
+  "比特率": "320000kbps",
+  "歌曲ID": "1496089152",
+  "下载时间": "2025/8/25 00:24:49"
+}

@@ -1,0 +1,1079 @@
+Hugo provides its own webserver which builds and serves the site.
+While hugo server is high performance, it is a webserver with limited options.
+
+The `hugo server` command will by default write and serve files from disk, but
+you can render to memory by using the `--renderToMemory` flag. This can be
+faster in some cases, but it will consume more memory.
+
+By default hugo will also watch your files for any changes you make and
+automatically rebuild the site. It will then live reload any open browser pages
+and push the latest content to them. As most Hugo sites are built in a fraction
+of a second, you will be able to save and see your changes nearly instantly.
+
+Usage:
+  hugo server [command] [flags]
+  hugo server [command]
+
+Aliases:
+  server, serve
+
+Available Commands:
+  trust       Install the local CA in the system trust store
+
+Flags:
+      --appendPort               append port to baseURL (default true)
+  -b, --baseURL string           hostname (and path) to the root, e.g. https://spf13.com/
+      --bind string              interface to which the server will bind (default "127.0.0.1")
+  -D, --buildDrafts              include content marked as draft
+  -E, --buildExpired             include expired content
+  -F, --buildFuture              include content with publishdate in the future
+      --cacheDir string          filesystem path to cache directory
+      --cleanDestinationDir      remove files from destination not found in static directories
+  -c, --contentDir string        filesystem path to content directory
+      --disableBrowserError      do not show build errors in the browser
+      --disableFastRender        enables full re-renders on changes
+      --disableKinds strings     disable different kind of pages (home, RSS etc.)
+      --disableLiveReload        watch without enabling live browser reload on rebuild
+      --enableGitInfo            add Git revision, date, author, and CODEOWNERS info to the pages
+      --forceSyncStatic          copy all files when static is changed.
+      --gc                       enable to run some cleanup tasks (remove unused cache files) after the build
+  -h, --help                     help for server
+      --ignoreCache              ignores the cache directory
+  -l, --layoutDir string         filesystem path to layout directory
+      --liveReloadPort int       port for live reloading (i.e. 443 in HTTPS proxy situations) (default -1)
+      --minify                   minify any supported output format (HTML, XML etc.)
+  -N, --navigateToChanged        navigate to changed content file on live browser reload
+      --noChmod                  don't sync permission mode of files
+      --noHTTPCache              prevent HTTP caching
+      --noTimes                  don't sync modification time of files
+  -O, --openBrowser              open the site in a browser after server startup
+      --panicOnWarning           panic on first WARNING log
+      --poll string              set this to a poll interval, e.g --poll 700ms, to use a poll based approach to watch for file system changes
+  -p, --port int                 port on which the server will listen (default 1313)
+      --pprof                    enable the pprof server (port 8080)
+      --printI18nWarnings        print missing translations
+      --printMemoryUsage         print memory usage to screen at intervals
+      --printPathWarnings        print warnings on duplicate target paths etc.
+      --printUnusedTemplates     print warnings on unused templates.
+      --renderSegments strings   named segments to render (configured in the segments config)
+      --renderStaticToDisk       serve static files from disk and dynamic files from memory
+      --templateMetrics          display metrics about template executions
+      --templateMetricsHints     calculate some improvement hints when combined with --templateMetrics
+  -t, --theme strings            themes to use (located in /themes/THEMENAME/)
+      --tlsAuto                  generate and use locally-trusted certificates.
+      --tlsCertFile string       path to TLS certificate file
+      --tlsKeyFile string        path to TLS key file
+      --trace file               write trace to file (not useful in general)
+  -w, --watch                    watch filesystem for changes and recreate as needed (default true)
+
+Global Flags:
+      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+      --config string              config file (default is hugo.yaml|json|toml)
+      --configDir string           config dir (default "config")
+  -d, --destination string         filesystem path to write files to
+  -e, --environment string         build environment
+      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+      --logLevel string            log level (debug|info|warn|error)
+      --noBuildLock                don't create .hugo_build.lock file
+      --quiet                      build in quiet mode
+  -M, --renderToMemory             render to memory (mostly useful when running the server)
+  -s, --source string              filesystem path to read files relative from
+      --themesDir string           filesystem path to themes directory
+
+Use "hugo server [command] --help" for more information about a command.
+
+Error: command error: server startup failed: listen tcp 127.0.0.1:8080: bind: address already in use
+Watching for changes in /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/config/_default, /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/themes/blowfish/config.toml, /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/themes/blowfish/config/_default
+Start building sites … 
+hugo v0.148.2+extended android/arm64 BuildDate=unknown
+
+
+           │ ZH - CN │ EN  │ FR  │ ES  │ JA  
+───────────┼─────────┼─────┼─────┼─────┼─────
+ Pages     │      83 │  28 │  25 │  24 │  25 
+ Paginator │       0 │   0 │   0 │   0 │   0 
+ pages     │         │     │     │     │     
+ Non-page  │      14 │   0 │   0 │   0 │   0 
+ files     │         │     │     │     │     
+ Static    │     869 │ 869 │ 869 │ 869 │ 869 
+ files     │         │     │     │     │     
+ Processed │       0 │   0 │   0 │   0 │   0 
+ images    │         │     │     │     │     
+ Aliases   │      26 │   5 │   4 │   4 │   4 
+ Cleaned   │       0 │   0 │   0 │   0 │   0 
+
+Built in 2128 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1) 
+Press Ctrl+C to stop
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/life/myself/dairy/9-Sep/dya-20
+
+Change detected, rebuilding site (#1).
+2025-09-20 09:16:22.790 +0000
+Source changed /life/myself/dairy/9-sep/dya-20
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 213 ms
+
+Change detected, rebuilding site (#2).
+2025-09-20 09:16:29.281 +0000
+Source changed /life/myself/dairy/9-sep/dya-20/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 272 ms
+
+Change detected, rebuilding site (#3).
+2025-09-20 09:16:36.269 +0000
+Source changed /life/myself/dairy/9-sep/dya-20/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 73 ms
+
+Change detected, rebuilding site (#4).
+2025-09-20 09:20:50.793 +0000
+Source changed /life/myself/dairy/9-sep/dya-20/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 100 ms
+
+Change detected, rebuilding site (#5).
+2025-09-20 09:24:47.770 +0000
+Source changed /life/myself/dairy/9-sep/dya-20/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 81 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/Please-dont-cry
+
+Change detected, rebuilding site (#6).
+2025-09-20 09:25:59.770 +0000
+Source changed /sophie/letter/please-dont-crying/_index.md
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 173 ms
+
+Change detected, rebuilding site (#7).
+2025-09-20 10:07:06.672 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 150 ms
+
+Change detected, rebuilding site (#8).
+2025-09-20 10:07:23.269 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 90 ms
+
+Change detected, rebuilding site (#9).
+2025-09-20 10:07:53.777 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 69 ms
+
+Change detected, rebuilding site (#10).
+2025-09-20 10:08:08.275 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 127 ms
+
+Change detected, rebuilding site (#11).
+2025-09-20 10:08:16.271 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 60 ms
+
+Change detected, rebuilding site (#12).
+2025-09-20 10:09:45.790 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 121 ms
+
+Change detected, rebuilding site (#13).
+2025-09-20 10:12:29.273 +0000
+Source changed /sophie/letter/pngtree-letter-template-for-photo-gallery-image_13370953.jpg.aria2
+Source changed /sophie/letter/pngtree-letter-template-for-photo-gallery-image_13370953.jpg.aria2__temp
+Source changed /sophie/letter/pngtree-letter-template-for-photo-gallery-image_13370953.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 254 ms
+
+Change detected, rebuilding site (#14).
+2025-09-20 10:12:56.294 +0000
+Source changed /sophie/letter/pngtree-letter-template-for-photo-gallery-image_13370953.jpg
+Source changed /sophie/letter/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 427 ms
+
+Change detected, rebuilding site (#15).
+2025-09-20 10:13:03.269 +0000
+Source changed /sophie/letter/featured.jpg
+Source changed /sophie/letter/please-dont-cry/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 298 ms
+
+Change detected, rebuilding site (#16).
+2025-09-20 10:15:19.302 +0000
+Source changed /sophie/letter/canva-white-and-green-watercolor-leaves-letter-cytey5hruqo.jpg.aria2
+Source changed /sophie/letter/canva-white-and-green-watercolor-leaves-letter-cytey5hruqo.jpg.aria2__temp
+Source changed /sophie/letter/canva-white-and-green-watercolor-leaves-letter-cytey5hruqo.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 230 ms
+
+Change detected, rebuilding site (#17).
+2025-09-20 10:15:31.270 +0000
+Source changed /sophie/letter/please-dont-cry/featured.jpg
+Source changed /sophie/letter/please-dont-cry/featured_white.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 258 ms
+
+Change detected, rebuilding site (#18).
+2025-09-20 10:15:42.771 +0000
+Source changed /sophie/letter/canva-white-and-green-watercolor-leaves-letter-cytey5hruqo.jpg
+Source changed /sophie/letter/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 153 ms
+
+Change detected, rebuilding site (#19).
+2025-09-20 10:15:45.771 +0000
+Source changed /sophie/letter/featured.jpg
+Source changed /sophie/letter/please-dont-cry/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 278 ms
+
+Change detected, rebuilding site (#20).
+2025-09-20 10:17:08.785 +0000
+Source changed /sophie/letter/old-letter-background-paper-vector-5437971.jpg.aria2__temp
+Source changed /sophie/letter/old-letter-background-paper-vector-5437971.jpg
+Source changed /sophie/letter/old-letter-background-paper-vector-5437971.jpg.aria2
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 301 ms
+
+Change detected, rebuilding site (#21).
+2025-09-20 10:17:09.271 +0000
+Source changed /sophie/letter/old-letter-background-paper-vector-5437971.jpg.aria2
+Source changed /sophie/letter/old-letter-background-paper-vector-5437971.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 188 ms
+
+Change detected, rebuilding site (#22).
+2025-09-20 10:17:25.285 +0000
+Source changed /sophie/letter/please-dont-cry/featured.jpg
+Source changed /sophie/letter/please-dont-cry/featured_line.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 295 ms
+
+Change detected, rebuilding site (#23).
+2025-09-20 10:17:32.781 +0000
+Source changed /sophie/letter/old-letter-background-paper-vector-5437971.jpg
+Source changed /sophie/letter/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 226 ms
+
+Change detected, rebuilding site (#24).
+2025-09-20 10:17:35.771 +0000
+Source changed /sophie/letter/featured.jpg
+Source changed /sophie/letter/please-dont-cry/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 274 ms
+
+Change detected, rebuilding site (#25).
+2025-09-20 10:20:30.273 +0000
+Source changed /sophie/letter/wedding-letter-7375738_1280.jpg.aria2
+Source changed /sophie/letter/wedding-letter-7375738_1280.jpg.aria2__temp
+Source changed /sophie/letter/wedding-letter-7375738_1280.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 299 ms
+
+Change detected, rebuilding site (#26).
+2025-09-20 10:20:47.768 +0000
+Source changed /sophie/letter/bloom/wedding-letter-7375738_1280.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 208 ms
+
+Change detected, rebuilding site (#27).
+2025-09-20 10:20:54.770 +0000
+Source changed /sophie/letter/bloom/wedding-letter-7375738_1280.jpg
+Source changed /sophie/letter/bloom/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 273 ms
+
+Change detected, rebuilding site (#28).
+2025-09-20 10:21:49.271 +0000
+Source changed /sophie/letter/background.jpg
+Source changed /sophie/letter/background_bak.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 358 ms
+
+Change detected, rebuilding site (#29).
+2025-09-20 10:21:54.268 +0000
+Source changed /sophie/letter/featured.png
+Source changed /sophie/letter/featured_bak.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 232 ms
+
+Change detected, rebuilding site (#30).
+2025-09-20 10:22:10.781 +0000
+Source changed /sophie/featured.jpg
+Source changed /sophie/featured_bak.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 201 ms
+
+Change detected, rebuilding site (#31).
+2025-09-20 10:22:47.772 +0000
+Source changed /sophie/background_bak.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 190 ms
+
+Change detected, rebuilding site (#32).
+2025-09-20 10:22:59.779 +0000
+Source changed /sophie/background_bak.jpg
+Source changed /sophie/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 294 ms
+
+Change detected, rebuilding site (#33).
+2025-09-20 10:23:13.280 +0000
+Source changed /sophie/featured.jpg
+Source changed /sophie/featured_bak2.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 287 ms
+
+Change detected, rebuilding site (#34).
+2025-09-20 10:23:29.278 +0000
+Source changed /sophie/featured_bak.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 229 ms
+
+Change detected, rebuilding site (#35).
+2025-09-20 10:23:33.270 +0000
+Source changed /sophie/featured_bak.png
+Source changed /sophie/featured.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 214 ms
+
+Change detected, rebuilding site (#36).
+2025-09-20 10:23:45.769 +0000
+Source changed /sophie/featured.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 170 ms
+
+Change detected, rebuilding site (#37).
+2025-09-20 10:25:16.282 +0000
+Source changed /sophie/featured_bak.jpg
+Source changed /sophie/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 240 ms
+
+Change detected, rebuilding site (#38).
+2025-09-20 10:25:32.781 +0000
+Source changed /sophie/featured.jpg
+Source changed /sophie/featured_bak.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 229 ms
+
+Change detected, rebuilding site (#39).
+2025-09-20 10:25:50.768 +0000
+Source changed /featured.png
+Source changed /featured_bak.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 382 ms
+
+Change detected, rebuilding site (#40).
+2025-09-20 10:25:58.273 +0000
+Source changed /background_bak.jpeg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 1013 ms
+
+Change detected, rebuilding site (#41).
+2025-09-20 10:26:01.772 +0000
+Source changed /background_bak.jpeg
+Source changed /background.jpeg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 554 ms
+
+Change detected, rebuilding site (#42).
+2025-09-20 10:26:13.772 +0000
+Source changed /background.jpeg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 285 ms
+
+Change detected, rebuilding site (#43).
+2025-09-20 10:26:22.270 +0000
+Source changed /background_bak.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 717 ms
+
+Change detected, rebuilding site (#44).
+2025-09-20 10:26:27.768 +0000
+Source changed /background_bak.jpg
+Source changed /background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 537 ms
+
+Change detected, rebuilding site (#45).
+2025-09-20 10:26:36.772 +0000
+Source changed /background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 185 ms
+
+Change detected, rebuilding site (#46).
+2025-09-20 10:26:51.269 +0000
+Source changed /sophie/letter/featured_bak.png
+Source changed /sophie/letter/featured.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 135 ms
+
+Change detected, rebuilding site (#47).
+2025-09-20 10:26:54.270 +0000
+Source changed /featured.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 372 ms
+
+Change detected, rebuilding site (#48).
+2025-09-20 10:29:12.275 +0000
+Source changed /featured.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 314 ms
+
+Change detected, rebuilding site (#49).
+2025-09-20 10:29:14.768 +0000
+Source changed /featured_bak.png
+Source changed /featured.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 328 ms
+
+Change detected, rebuilding site (#50).
+2025-09-20 10:29:21.270 +0000
+Source changed /sophie/featured_bak2.jpg
+Source changed /sophie/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 157 ms
+
+Change detected, rebuilding site (#51).
+2025-09-20 10:29:56.285 +0000
+Source changed /sophie/letter/featured.png
+Source changed /sophie/letter/featured_bak.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 429 ms
+
+Change detected, rebuilding site (#52).
+2025-09-20 10:30:36.271 +0000
+Source changed /sophie/letter/wedding-letter-7375738_1280.jpg
+Source changed /sophie/letter/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 215 ms
+
+Change detected, rebuilding site (#53).
+2025-09-20 10:31:08.273 +0000
+Source changed /sophie/letter/featured.jpg
+Source changed /sophie/letter/background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 285 ms
+
+Change detected, rebuilding site (#54).
+2025-09-20 10:31:16.768 +0000
+Source changed /sophie/letter/featured_bak.png
+Source changed /sophie/letter/featured.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 125 ms
+
+Change detected, rebuilding site (#55).
+2025-09-20 10:31:40.768 +0000
+Source changed /sophie/letter/please-dont-cry/featured.jpg
+Source changed /sophie/letter/please-dont-cry/background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 123 ms
+
+Change detected, rebuilding site (#56).
+2025-09-20 10:31:51.768 +0000
+Source changed /sophie/letter/background.jpg
+Source changed /sophie/letter/background_bak2.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 98 ms
+
+Change detected, rebuilding site (#57).
+2025-09-20 10:31:55.768 +0000
+Source changed /sophie/letter/background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 160 ms
+
+Change detected, rebuilding site (#58).
+2025-09-20 10:32:23.770 +0000
+Source changed /sophie/letter/bloom/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 246 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/pic
+
+Change detected, rebuilding site (#59).
+2025-09-20 10:34:47.270 +0000
+Source changed /sophie/letter/pic
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 131 ms
+
+Change detected, rebuilding site (#60).
+2025-09-20 10:34:56.782 +0000
+Source changed /sophie/letter/background_bak.jpg
+Source changed /sophie/letter/background_bak2.jpg
+Source changed /sophie/letter/pic/background_bak.jpg
+Source changed /sophie/letter/pic/background_bak2.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 223 ms
+
+Change detected, rebuilding site (#61).
+2025-09-20 10:35:07.268 +0000
+Source changed /sophie/featured_1.jpg
+Source changed /sophie/letter/background_bak.jpeg
+Source changed /sophie/letter/pic/background_bak.jpeg
+Source changed /sophie/letter/pic/featured_1.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 191 ms
+
+Change detected, rebuilding site (#62).
+2025-09-20 10:35:18.768 +0000
+Source changed /sophie/letter/please-dont-cry/featured_line.jpg
+Source changed /sophie/letter/please-dont-cry/featured_white.jpg
+Source changed /sophie/letter/pic/featured_line.jpg
+Source changed /sophie/letter/pic/featured_white.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 125 ms
+
+Change detected, rebuilding site (#63).
+2025-09-20 10:35:30.275 +0000
+Source changed /sophie/letter/bloom/background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 313 ms
+
+Change detected, rebuilding site (#64).
+2025-09-20 10:35:31.770 +0000
+Source changed /sophie/letter/all-or-nothing/background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 129 ms
+
+Change detected, rebuilding site (#65).
+2025-09-20 10:36:14.779 +0000
+Source changed /sophie/letter/featured.png
+Source changed /sophie/letter/featured_bak.png
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 176 ms
+
+Change detected, rebuilding site (#66).
+2025-09-20 10:36:23.269 +0000
+Source changed /sophie/letter/background.jpg
+Source changed /sophie/letter/featured.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 120 ms
+
+Change of config file detected, rebuilding site (#67).
+2025-09-20 10:38:42.275 +0000
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Rebuilt in 8119 ms
+
+Change detected, rebuilding site (#68).
+2025-09-20 10:41:01.294 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 51 ms
+
+Change detected, rebuilding site (#69).
+2025-09-20 10:42:19.819 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 130 ms
+
+Change detected, rebuilding site (#70).
+2025-09-20 10:42:44.771 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 62 ms
+
+Change detected, rebuilding site (#71).
+2025-09-20 10:43:26.772 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 52 ms
+
+Change detected, rebuilding site (#72).
+2025-09-20 10:43:47.269 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 37 ms
+
+Change detected, rebuilding site (#73).
+2025-09-20 10:43:59.770 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 56 ms
+
+Change detected, rebuilding site (#74).
+2025-09-20 10:44:03.770 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 36 ms
+
+Change detected, rebuilding site (#75).
+2025-09-20 10:44:08.271 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 90 ms
+
+Change detected, rebuilding site (#76).
+2025-09-20 10:44:30.769 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 31 ms
+
+Change detected, rebuilding site (#77).
+2025-09-20 10:44:58.271 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 98 ms
+
+Change detected, rebuilding site (#78).
+2025-09-20 10:45:16.787 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 60 ms
+
+Change detected, rebuilding site (#79).
+2025-09-20 10:47:17.796 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 165 ms
+
+Change detected, rebuilding site (#80).
+2025-09-20 10:56:05.309 +0000
+Source changed /sophie/letter/_index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 119 ms
+
+Change detected, rebuilding site (#81).
+2025-09-20 10:57:55.275 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 73 ms
+
+Change detected, rebuilding site (#82).
+2025-09-20 11:00:56.774 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 102 ms
+
+Change detected, rebuilding site (#83).
+2025-09-20 11:01:19.771 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 105 ms
+
+Change detected, rebuilding site (#84).
+2025-09-20 11:24:17.789 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 147 ms
+
+Change detected, rebuilding site (#85).
+2025-09-20 11:25:05.288 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 184 ms
+
+Change detected, rebuilding site (#86).
+2025-09-20 11:25:25.278 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 143 ms
+
+Change detected, rebuilding site (#87).
+2025-09-20 11:25:44.806 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 147 ms
+
+Change detected, rebuilding site (#88).
+2025-09-20 11:26:50.273 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 100 ms
+
+Change detected, rebuilding site (#89).
+2025-09-20 11:26:57.779 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 69 ms
+
+Change detected, rebuilding site (#90).
+2025-09-20 11:28:52.776 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 81 ms
+
+Change detected, rebuilding site (#91).
+2025-09-20 11:29:07.282 +0000
+Source changed /sophie/letter/bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 98 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/We-will-Bloom
+
+Change detected, rebuilding site (#92).
+2025-09-20 11:29:41.270 +0000
+Source changed /sophie/letter/bloom/_index.md
+Source changed /sophie/letter/we-will-bloom/background.jpg
+Source changed /sophie/letter/we-will-bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 214 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/Light-of-Featury
+
+Change detected, rebuilding site (#93).
+2025-09-20 11:32:06.780 +0000
+Source changed /sophie/letter/light-of-featury
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 195 ms
+
+Change detected, rebuilding site (#94).
+2025-09-20 11:32:10.775 +0000
+Source changed /sophie/letter/light-of-featury/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 251 ms
+
+Change detected, rebuilding site (#95).
+2025-09-20 11:55:14.310 +0000
+Source changed /sophie/letter/light-of-featury/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 136 ms
+
+Change detected, rebuilding site (#96).
+2025-09-20 11:56:04.292 +0000
+Source changed /sophie/letter/light-of-featury/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 126 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/All-or-Nothing
+
+Change detected, rebuilding site (#97).
+2025-09-20 11:56:43.772 +0000
+Source changed /sophie/letter/all-or-nothing/_index.md
+Source changed /sophie/letter/all-or-nothing/1index.es.md
+Source changed /sophie/letter/all-or-nothing/background.jpg
+Source changed /sophie/letter/all-or-nothing/index.en.md
+Source changed /sophie/letter/all-or-nothing/index.fr.md
+Source changed /sophie/letter/all-or-nothing/index.ja.md
+Source changed /sophie/letter/all-or-nothing/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 341 ms
+
+Change detected, rebuilding site (#98).
+2025-09-20 11:56:50.271 +0000
+Source changed /sophie/letter/all-or-nothing/1index.es.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 200 ms
+
+Change detected, rebuilding site (#99).
+2025-09-20 11:57:05.276 +0000
+Source changed /sophie/letter/all-or-nothing/1index.es.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 196 ms
+
+Change detected, rebuilding site (#100).
+2025-09-20 11:57:15.768 +0000
+Source changed /sophie/letter/all-or-nothing/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 123 ms
+
+Change detected, rebuilding site (#101).
+2025-09-20 11:57:20.770 +0000
+Source changed /sophie/letter/all-or-nothing/index.ja.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 80 ms
+
+Change detected, rebuilding site (#102).
+2025-09-20 11:57:27.277 +0000
+Source changed /sophie/letter/all-or-nothing/index.fr.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 161 ms
+
+Change detected, rebuilding site (#103).
+2025-09-20 11:57:35.279 +0000
+Source changed /sophie/letter/all-or-nothing/index.en.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 89 ms
+
+Change detected, rebuilding site (#104).
+2025-09-20 11:59:22.800 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 150 ms
+
+Change detected, rebuilding site (#105).
+2025-09-20 11:59:57.277 +0000
+Source changed /sophie/letter/we-will-bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 89 ms
+
+Change detected, rebuilding site (#106).
+2025-09-20 12:00:13.274 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 55 ms
+
+Change detected, rebuilding site (#107).
+2025-09-20 12:00:28.775 +0000
+Source changed /sophie/letter/light-of-featury/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 82 ms
+
+Change detected, rebuilding site (#108).
+2025-09-20 12:01:09.290 +0000
+Source changed /sophie/letter/all-or-nothing/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 239 ms
+
+Change detected, rebuilding site (#109).
+2025-09-20 12:01:37.277 +0000
+Source changed /sophie/letter/all-or-nothing/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 133 ms
+
+Change detected, rebuilding site (#110).
+2025-09-20 12:01:51.773 +0000
+Source changed /sophie/letter/please-dont-cry/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 96 ms
+
+Change detected, rebuilding site (#111).
+2025-09-20 12:01:55.769 +0000
+Source changed /sophie/letter/we-will-bloom/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 56 ms
+
+Change detected, rebuilding site (#112).
+2025-09-20 12:01:59.771 +0000
+Source changed /sophie/letter/light-of-featury/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 87 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/Please-dont-cring
+
+Change detected, rebuilding site (#113).
+2025-09-20 12:02:26.273 +0000
+Source changed /sophie/letter/please-dont-cry/_index.md
+Source changed /sophie/letter/please-dont-cring/background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 351 ms
+
+Change detected, rebuilding site (#114).
+2025-09-20 12:02:26.827 +0000
+Source changed /sophie/letter/please-dont-cring/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 260 ms
+
+Change detected, rebuilding site (#115).
+2025-09-20 12:03:30.296 +0000
+Source changed /sophie/letter/please-dont-cring/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 129 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/Please-dont-crying
+
+Change detected, rebuilding site (#116).
+2025-09-20 12:03:35.274 +0000
+Source changed /sophie/letter/please-dont-cring/_index.md
+Source changed /sophie/letter/please-dont-crying/background.jpg
+Source changed /sophie/letter/please-dont-crying/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 331 ms
+
+Change detected, rebuilding site (#117).
+2025-09-20 12:03:37.768 +0000
+Source changed /sophie/letter/please-dont-crying/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 42 ms
+
+Change detected, rebuilding site (#118).
+2025-09-20 12:03:38.271 +0000
+Source changed /sophie/letter/please-dont-crying/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 376 ms
+
+Change detected, rebuilding site (#119).
+2025-09-20 12:07:40.815 +0000
+Source changed /sophie/letter/please-dont-crying/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 231 ms
+
+Change detected, rebuilding site (#120).
+2025-09-20 12:11:59.287 +0000
+Source changed /sophie/letter/please-dont-crying/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 114 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/Love-and-Dream
+
+Change detected, rebuilding site (#121).
+2025-09-20 12:20:18.306 +0000
+Source changed /sophie/letter/love-and-dream
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 343 ms
+
+Change detected, rebuilding site (#122).
+2025-09-20 12:20:21.272 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 257 ms
+
+Change detected, rebuilding site (#123).
+2025-09-20 12:22:02.288 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 140 ms
+
+Change detected, rebuilding site (#124).
+2025-09-20 12:22:46.779 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 139 ms
+
+Change detected, rebuilding site (#125).
+2025-09-20 12:53:39.876 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 172 ms
+
+Change detected, rebuilding site (#126).
+2025-09-20 12:53:58.791 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 146 ms
+
+Change detected, rebuilding site (#127).
+2025-09-20 12:54:13.771 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 91 ms
+
+Change detected, rebuilding site (#128).
+2025-09-20 12:54:31.777 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 86 ms
+
+Change detected, rebuilding site (#129).
+2025-09-20 12:55:42.277 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 123 ms
+
+Change detected, rebuilding site (#130).
+2025-09-20 12:58:22.797 +0000
+Asset changed /img/retro-letter-background-with-flowers-and-text-vector-5438217.jpg.aria2__temp
+Asset changed /img/retro-letter-background-with-flowers-and-text-vector-5438217.jpg
+Asset changed /img/retro-letter-background-with-flowers-and-text-vector-5438217.jpg.aria2
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 258 ms
+
+Change detected, rebuilding site (#131).
+2025-09-20 12:58:23.657 +0000
+Asset changed /img/retro-letter-background-with-flowers-and-text-vector-5438217.jpg.aria2
+Asset changed /img/retro-letter-background-with-flowers-and-text-vector-5438217.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 180 ms
+
+Change detected, rebuilding site (#132).
+2025-09-20 12:59:19.278 +0000
+Asset changed /img/retro-letter-background-with-flowers-and-text-vector-5438217.jpg
+Asset changed /img/letter.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 234 ms
+
+Change of config file detected, rebuilding site (#133).
+2025-09-20 13:00:58.290 +0000
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Rebuilt in 7529 ms
+
+Change detected, rebuilding site (#134).
+2025-09-20 13:02:25.844 +0000
+Source changed /sophie/letter/light-of-featury/background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 550 ms
+
+Change detected, rebuilding site (#135).
+2025-09-20 13:02:28.274 +0000
+Source changed /sophie/letter/love-and-dream/background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 330 ms
+
+Change of config file detected, rebuilding site (#136).
+2025-09-20 13:03:03.274 +0000
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Rebuilt in 2926 ms
+
+Change detected, rebuilding site (#137).
+2025-09-20 13:03:28.282 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 107 ms
+
+Change detected, rebuilding site (#138).
+2025-09-20 13:03:57.775 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 205 ms
+
+Change detected, rebuilding site (#139).
+2025-09-20 13:11:11.784 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 129 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/Find-You
+
+Change detected, rebuilding site (#140).
+2025-09-20 13:14:46.777 +0000
+Source changed /sophie/letter/find-you
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 295 ms
+
+Change detected, rebuilding site (#141).
+2025-09-20 13:14:49.771 +0000
+Source changed /sophie/letter/find-you/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 192 ms
+
+Change detected, rebuilding site (#142).
+2025-09-20 13:15:21.312 +0000
+Source changed /sophie/letter/find-you/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 148 ms
+adding created directory to watchlist /data/data/com.termux/files/home/Yuoek/Yu/hugoBlog/hugo/content/sophie/letter/To-Find-You
+
+Change detected, rebuilding site (#143).
+2025-09-20 13:15:31.272 +0000
+Source changed /sophie/letter/find-you/_index.md
+Source changed /sophie/letter/to-find-you/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 307 ms
+
+Change detected, rebuilding site (#144).
+2025-09-20 13:15:56.282 +0000
+Source changed /sophie/letter/to-find-you/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 150 ms
+
+Change detected, rebuilding site (#145).
+2025-09-20 13:16:11.781 +0000
+Source changed /sophie/letter/love-and-dream/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 120 ms
+
+Change detected, rebuilding site (#146).
+2025-09-20 13:17:46.281 +0000
+Source changed /sophie/letter/to-find-you/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 89 ms
+
+Change detected, rebuilding site (#147).
+2025-09-20 13:35:31.285 +0000
+Source changed /sophie/letter/to-find-you/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 137 ms
+
+Change detected, rebuilding site (#148).
+2025-09-20 13:45:55.789 +0000
+Source changed /sophie/letter/to-find-you/index.md
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 147 ms
+
+Change detected, rebuilding site (#149).
+2025-09-20 13:46:48.790 +0000
+Source changed /sophie/letter/to-find-you/background.jpg
+Web Server is available at http://localhost:8080/ (bind address 127.0.0.1)
+Total in 421 ms

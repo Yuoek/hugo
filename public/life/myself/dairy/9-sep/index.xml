@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>时维九月 on Yuoek</title>
+    <link>http://localhost:8087/life/myself/dairy/9-sep/</link>
+    <description>Recent content in 时维九月 on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>youremail@example.com (肖吟)</managingEditor>
+    <webMaster>youremail@example.com (肖吟)</webMaster>
+    <copyright>© 2025 肖吟</copyright>
+    <lastBuildDate>Sat, 23 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8087/life/myself/dairy/9-sep/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sep 20 </title>
+      <link>http://localhost:8087/life/myself/dairy/9-sep/dya-20/</link>
+      <pubDate>Sat, 20 Sep 2025 17:08:29 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:8087/life/myself/dairy/9-sep/dya-20/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sep 14 </title>
+      <link>http://localhost:8087/life/myself/dairy/9-sep/day-14/</link>
+      <pubDate>Sun, 14 Sep 2025 19:12:26 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:8087/life/myself/dairy/9-sep/day-14/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

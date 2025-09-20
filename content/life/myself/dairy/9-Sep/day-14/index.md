@@ -8,8 +8,24 @@ series_order: ""
 type: ""
 ---
 
+<!-- require APlayer -->
+<link rel="stylesheet" href="/renderjs/aplayer/dist/APlayer.min.css">
+<script src="/renderjs/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="/renderjs/meting/dist/Meting.min.js"></script>
+
 
 2025 年 9 月 14 日（七月廿(niàn)三）    周天    晴☀ 
+
+<meting-js
+    name="瞬间的瞬间 "
+    artist="林俊杰"
+    url="https://images.yuoek.icu/file/music/1757921809463_林俊杰_-_瞬间的瞬间.mp3"
+    cover="https://images.yuoek.icu/file/music/1757922010913_2fae9f16c2fa0bcc83d5f1f2b92c29f4.jpg"
+    lrc="" 
+    loop="false"
+    mutex="true">
+</meting-js>
 
 <p align="center">
 <img src="https://images.yuoek.icu/file/mylife/dairy/1757851078525_mmexport1757073982837.jpg" width=400/>

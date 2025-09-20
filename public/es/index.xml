@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuoek_zh-es on Yuoek</title>
+    <link>http://localhost:8087/es/</link>
+    <description>Recent content in Yuoek_zh-es on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>youremail@example.com (Yuoek)</managingEditor>
+    <webMaster>youremail@example.com (Yuoek)</webMaster>
+    <copyright>© 2025 Yuoek</copyright>
+    <lastBuildDate>Sat, 23 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8087/es/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>友情链接</title>
+      <link>http://localhost:8087/es/friends/</link>
+      <pubDate>Thu, 28 Aug 2025 15:45:56 +0800</pubDate>
+      <author>youremail@example.com (Yuoek)</author>
+      <guid>http://localhost:8087/es/friends/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:8087/friends/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
