@@ -1,0 +1,2 @@
+# hugo
+My hugo blog
