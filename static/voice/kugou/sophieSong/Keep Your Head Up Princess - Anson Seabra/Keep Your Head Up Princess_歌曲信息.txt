@@ -1,0 +1,10 @@
+{
+  "歌曲名称": "Keep Your Head Up Princess",
+  "歌手": "Anson Seabra",
+  "专辑": "Keep Your Head Up Princess",
+  "音质": "极高音质",
+  "文件大小": "7.56 MB",
+  "比特率": "320000kbps",
+  "歌曲ID": "1886345442",
+  "下载时间": "2025/8/25 00:16:09"
+}

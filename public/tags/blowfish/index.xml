@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BlowFish on Yuoek</title>
+    <link>http://localhost:1313/tags/blowfish/</link>
+    <description>Recent content in BlowFish on Yuoek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>youremail@example.com (肖吟)</managingEditor>
+    <webMaster>youremail@example.com (肖吟)</webMaster>
+    <copyright>© 2026 肖吟</copyright>
+    <lastBuildDate>Sat, 07 Feb 2026 15:28:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/blowfish/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>BlowFish</title>
+      <link>http://localhost:1313/life/note/shortcut/blowfish/</link>
+      <pubDate>Sat, 07 Feb 2026 15:28:49 +0800</pubDate>
+      <author>youremail@example.com (肖吟)</author>
+      <guid>http://localhost:1313/life/note/shortcut/blowfish/</guid>
+      <description>BlowFish</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+---
+title: "Yuoek_en"
+date: 2025-08-23
+---
+
+<!-- require APlayer -->
+<link rel="stylesheet" href="/renderjs/aplayer/dist/APlayer.min.css">
+<script src="/renderjs/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="/renderjs/meting/dist/Meting.min.js"></script>
+
+<font color="#ee98e3de"> Dear Yuoek: </font>
+<font color="#7cc0e7"> Dream And Love </font> 
+<font color="#7cc0e7"> All Of You! </font>
+
+
+<meting-js
+    name="Keep Your Head Up Princess"
+    artist="Anson Seabra"
+    url="/voice/kugou/sophieSong/Keep Your Head Up Princess - Anson Seabra/Keep Your Head Up Princess.mp3"
+    cover="/voice/kugou/sophieSong/Keep Your Head Up Princess - Anson Seabra/Keep Your Head Up Princess_封面.jpg"
+    lrc="/voice/kugou/sophieSong/Keep Your Head Up Princess - Anson Seabra/Keep Your Head Up Princess_合并歌词.lrc" 
+    autoplay="false"
+    loop="false"
+    fixed="true"
+    mini="true"
+    mutex="true">
+</meting-js>
+
