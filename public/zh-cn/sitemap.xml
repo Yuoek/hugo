@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/life/word/</loc>
+    <lastmod>2026-05-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/life/word/5/</loc>
+    <lastmod>2026-05-08T00:30:33+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/life/note/shortcut/blowfish/</loc>
     <lastmod>2026-02-07T15:28:49+08:00</lastmod>
     <changefreq>daily</changefreq>
