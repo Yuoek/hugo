@@ -22,7 +22,7 @@ article:
     one: "{{ .Count }} 喜歡"
     other: "{{ .Count }} 喜歡"
   part_of_series: "本文屬於一個選集。"
-  part: "§"
+  part: ""
   this_article: "本文"
   related_articles: "相關文章"
   zen_mode_title:

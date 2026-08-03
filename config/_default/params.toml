@@ -10,7 +10,7 @@ colorScheme = "congo"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
-enableA11y = true
+enableA11y = false
 enableSearch = true
 enableCodeCopy = true
 
@@ -26,7 +26,7 @@ backgroundImageWidth = 1200
 
 # defaultBackgroundImage = "img/197-sandbox1.png" # used as default for background images 
 defaultBackgroundImage = "img/grow_bg.jpg" # used as default for background images 
-defaultFeaturedImage = "img/grow.jpg" # used as default for featured images in all articles
+defaultFeaturedImage = "" # used as default for featured images in all articles
 # defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 
 highlightCurrentMenuArea = true
@@ -56,10 +56,10 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # homepageImage= "img/qixi4.jpg" # used as default for background images 
   showRecent = false
   showRecentItems = 20
-  showMoreLink = true
+  showMoreLink = false
   showMoreLinkDest = ""
   cardView = false
-  cardViewScreenWidth = true
+  cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
   disableHeroImageFilter = false # only used when layout equals hero
 
@@ -70,26 +70,26 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showDateOnlyInArticle = false
   showDateUpdated = true
   showAuthor = false
-  showAuthorBottom = false
+  showAuthorBottom = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = false # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
-  showBreadcrumbs = false
-  showDraftLabel = false
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showBreadcrumbs = true
+  showDraftLabel = true
   showEdit = false
   editURL = "https://github.com/yuoek/hugo"
-  editAppendPath = true
+  editAppendPath = false
   seriesOpened = false
   showHeadingAnchors = false
   showPagination = true
-  invertPagination = false
+  invertPagination = true
   showReadingTime = false
   showTableOfContents = false
   showRelatedContent = false
 #   relatedContentLimit = 3
   showTaxonomies = false # use showTaxonomies OR showCategoryOnly, not both
-  showCategoryOnly = false # use showTaxonomies OR showCategoryOnly, not both
+  showCategoryOnly = false# use showTaxonomies OR showCategoryOnly, not both
   showAuthorsBadges = false
   showWordCount = false
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
@@ -99,16 +99,16 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [list]
   showHero = true
-  heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = false # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = false# only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = true
   showSummary = true
   showViews = false
   showLikes = false
   showTableOfContents = true
-  showCards = true
-  orderByWeight = true
+  showCards = false
+  orderByWeight = false
   groupByYear = true
   cardView = false
   cardViewScreenWidth = false
@@ -124,7 +124,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showBreadcrumbs = true
   showViews = false
   showLikes = false
-  showTableOfContents = true
+  showTableOfContents = false
   cardView = false
 
 [term]
@@ -133,10 +133,10 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showBreadcrumbs = true
   showViews = false
   showLikes = false
-  showTableOfContents = true
+  showTableOfContents = false
   groupByYear = true
   cardView = false
-  cardViewScreenWidth = true
+  cardViewScreenWidth = false
 
 [firebase]
   # apiKey = "XXXXXX"

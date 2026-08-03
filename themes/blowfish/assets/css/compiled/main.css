@@ -720,7 +720,7 @@ body.zen-mode-enable {
       font-style: italic;
       color: var(--tw-prose-quotes);
       border-inline-start-width: 0.25rem;
-      border-inline-start-color: var(--tw-prose-quote-borders);
+      border-inline-start-color: #ee98e3de;
       quotes: "\201C""\201D""\2018""\2019";
       margin-top: 1.6em;
       margin-bottom: 1.6em;
@@ -1764,7 +1764,7 @@ body.zen-mode-enable {
   }
   .border-t {
     border-top-style: var(--tw-border-style);
-    border-top-width: 1px;
+    border-top-width: 0px;
   }
   .border-b-2 {
     border-bottom-style: var(--tw-border-style);
@@ -1882,7 +1882,7 @@ body.zen-mode-enable {
     background-color: rgba(var(--color-primary-100), 1);
   }
   .bg-primary-200 {
-    background-color: rgba(var(--color-primary-200), 1);
+    background-color: rgba(245, 177, 255, 0.42);
   }
   .bg-primary-500 {
     background-color: rgba(var(--color-primary-500), 1);

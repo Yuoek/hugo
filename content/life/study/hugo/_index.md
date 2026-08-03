@@ -14,4 +14,3 @@ type: "posts"
   学习 <font color="#ee98e3de"> 「Hugo」 </font> 的笔记
 </font>
 
-nvim python wget <https://img3.doubanio.com/view/photo/l/public/p2928985187.webp>

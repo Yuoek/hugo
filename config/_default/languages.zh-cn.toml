@@ -13,18 +13,17 @@ title = "Yuoek"
 # logo = "img/logo.png"
 # secondaryLogo = "img/secondary-logo.png"
 # description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "肖吟"
-  email = "youremail@example.com"
+  name = "Yuoek"
+  email = "yuoek@yuoek.icu"
   image = "img/flyfull.png"
   imageQuality = 96
   headline = "遇光见影，遇你见爱"
   bio = "请用忄看肖吟，因为是在悄吟"
   links = [
-    # { github = "https://github.com/username" },
-    # { email = "mailto:hello@your_domain.com" },
+    # { github = "https://github.com/Yuoek" },
+    # { email = "yuoek@yuoek.icu" },
     # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
