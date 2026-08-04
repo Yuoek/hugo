@@ -1,11 +1,27 @@
 
 
+.github-card-wrapper > a > div {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    max-width: 480px;
+    transform: scale(0.9);
+    transform-origin: top left;
+}
+
+/* 小屏幕下恢复正常大小 */
+@media (max-width: 768px) {
+  .github-card-wrapper > a > div {
+    max-width: 100%;
+    transform: none;
+  }
+}
 
 /*------------------------------------------------------------------------*/
 /* 取肖最大限制宽度 */
 .max-w-prose {  
   max-width: none !important;  
 }
+
 
 /* 优化字体加载优先级 */
 /* 设置中文字体 */

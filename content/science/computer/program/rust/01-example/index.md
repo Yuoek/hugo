@@ -12,8 +12,6 @@ type: "posts"
 
 {{< katex >}}
 
-
-
 <details>
 <summary>目錄 📑 </summary>
 
