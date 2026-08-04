@@ -11,7 +11,7 @@ defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableA11y = false
-enableSearch = true
+enableSearch = false
 enableCodeCopy = true
 
 replyByEmail = false
@@ -106,9 +106,9 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showSummary = true
   showViews = false
   showLikes = false
-  showTableOfContents = true
+  showTableOfContents = false
   showCards = false
-  orderByWeight = false
+  orderByWeight = true
   groupByYear = true
   cardView = false
   cardViewScreenWidth = false
