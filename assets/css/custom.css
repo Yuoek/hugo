@@ -1,4 +1,8 @@
 
+/* 隐藏播放器侧边切换箭头（miniswitcher） */
+.aplayer-fixed .aplayer-miniswitcher {
+    display: none !important;
+}
 
 .github-card-wrapper > a > div {
     box-shadow: none !important;

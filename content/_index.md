@@ -14,11 +14,11 @@ date: 2025-08-23
 <font color="#7cc0e7"> 遇你见爱吧! </font>
 
 <meting-js
-    name="黑暗之光 (Version 2) "
-    artist="雷光夏"
-    url="/voice/kugou/sophieSong/黑暗之光 (Version 2) - 雷光夏/黑暗之光 (Version 2).mp3 "
-    cover="/voice/kugou/sophieSong/黑暗之光 (Version 2) - 雷光夏/黑暗之光 (Version 2)_封面.jpg"
-    lrc="/voice/kugou/sophieSong/黑暗之光 (Version 2) - 雷光夏/黑暗之光 (Version 2)_原文歌词.lrc" 
+    name="Photograph"
+    artist="Cody Fry"
+    url="https://raw.githubusercontent.com/Yuoek/music/main/media/Photograph%20-%20Cody%20Fry/Photograph%20-%20Cody%20Fry.mp3"
+    cover="https://raw.githubusercontent.com/Yuoek/music/main/media/Photograph%20-%20Cody%20Fry/Photograph%20-%20Cody%20Fry.jpg "
+    lrc="https://raw.githubusercontent.com/Yuoek/music/main/media/Photograph%20-%20Cody%20Fry/Photograph%20-%20Cody%20Fry.lrc " 
     autoplay="false"
     loop="false"
     fixed="true"

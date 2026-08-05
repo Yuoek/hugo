@@ -27,6 +27,17 @@ type: ""
     mutex="true">
 </meting-js>
 
+<meting-js
+    name="Photograph"
+    artist="Cody Fry"
+    url="https://raw.githubusercontent.com/Yuoek/music/main/media/Photograph%20-%20Cody%20Fry/Photograph%20-%20Cody%20Fry.mp3"
+    cover="https://raw.githubusercontent.com/Yuoek/music/main/media/Photograph%20-%20Cody%20Fry/Photograph%20-%20Cody%20Fry.jpg "
+    lrc="https://raw.githubusercontent.com/Yuoek/music/main/media/Photograph%20-%20Cody%20Fry/Photograph%20-%20Cody%20Fry.lrc " 
+    autoplay="false"
+    loop="false"
+    mutex="true">
+</meting-js>
+
 <p align="center">
 <img src="https://images.yuoek.icu/file/mylife/dairy/1757851078525_mmexport1757073982837.jpg" width=400/>
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">开学第一天</center> 

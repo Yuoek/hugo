@@ -139,10 +139,6 @@
  pageRef = "life0123"
  weight = 80
 
-[[main]]
-pre = "github"
-url = "https://github.com/Yuoek/hugo"
-weight = 88
 
 # [[main]]
 #  name = "生活 | 0123"
