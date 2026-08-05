@@ -16,12 +16,14 @@ date: 2025-08-23
 <meting-js
     name="Photograph"
     artist="Cody Fry"
-    url="https://raw.githubusercontent.com/Yuoek/music/main/media/Photograph%20-%20Cody%20Fry/Photograph%20-%20Cody%20Fry.mp3"
-    cover="https://raw.githubusercontent.com/Yuoek/music/main/media/Photograph%20-%20Cody%20Fry/Photograph%20-%20Cody%20Fry.jpg "
-    lrc="https://raw.githubusercontent.com/Yuoek/music/main/media/Photograph%20-%20Cody%20Fry/Photograph%20-%20Cody%20Fry.lrc " 
+    url="https://images.yuoek.icu/file/music/1785934177519_Photograph_-_Cody_Fry.mp3"
+    cover="https://images.yuoek.icu/file/music/1785934174995_Photograph_-_Cody_Fry.jpg"
+    lrc="https://images.yuoek.icu/file/music/1785934171247_Photograph_-_Cody_Fry.lrc" 
     autoplay="false"
     loop="false"
-    fixed="true"
     mini="true"
+    fixed="true"
     mutex="true">
 </meting-js>
+
+

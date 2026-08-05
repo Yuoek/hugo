@@ -20,10 +20,10 @@ date: 2025-08-28T15:45:56+08:00
 
 
 {{< friends 
-    name="Yuoek" 
-    url="https://yuoek.icu" 
-    avatar="https://yuoek.icu/img/flyfull.png" 
-    bio="遇光见影，遇你见爱; 為虞十载，我心万宁！" 
+    name="GaleInk" 
+    url="https://twj-ink.github.io/" 
+    avatar="https://twj-ink.github.io/img/avatar_hu_91a2b4f93b97766.jpg" 
+    bio="" 
 >}}
 
 

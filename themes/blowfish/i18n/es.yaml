@@ -44,7 +44,7 @@ error:
 footer:
   dark_appearance: "Cambiar a modo oscuro"
   light_appearance: "Cambiar a modo claro"
-  powered_by: "Desarrollada con {{ .Hugo }} &amp; {{ .Theme }}"
+  powered_by: "Desarrollada con {{ .Hugo }} &amp; {{ .Theme }}  &amp; Yuoek 🌈"
 
 list:
   externalurl_title: "Enlace a página externa"

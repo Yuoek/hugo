@@ -1,4 +1,12 @@
 
+@layer utilities {
+  .series-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+  }
+}
 /* 隐藏播放器侧边切换箭头（miniswitcher） */
 .aplayer-fixed .aplayer-miniswitcher {
     display: none !important;
@@ -33,7 +41,8 @@
     font-family: 'ChineseFont';
     src: url('/fonts/ChillKai.woff') format('woff');
     font-display: swap; /* 优化字体加载行为 */
-    unicode-range: U+4E00-9FFF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF;
+    unicode-range: 
+    U+4E00-9FFF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF;
 }
 
 /* 设置英文字体 */

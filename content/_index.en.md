@@ -15,11 +15,11 @@ date: 2025-08-23
 
 
 <meting-js
-    name="Keep Your Head Up Princess"
-    artist="Anson Seabra"
-    url="/voice/kugou/sophieSong/Keep Your Head Up Princess - Anson Seabra/Keep Your Head Up Princess.mp3"
-    cover="/voice/kugou/sophieSong/Keep Your Head Up Princess - Anson Seabra/Keep Your Head Up Princess_封面.jpg"
-    lrc="/voice/kugou/sophieSong/Keep Your Head Up Princess - Anson Seabra/Keep Your Head Up Princess_合并歌词.lrc" 
+    name="Can't Stop Love"
+    artist="Darin"
+    url="https://images.yuoek.icu/file/music/1785933399427_Can_t_Stop_Love_-_Darin.mp3"
+    cover="https://images.yuoek.icu/file/music/1785933399922_Can_t_Stop_Love_-_Darin.jpg"
+    lrc="https://images.yuoek.icu/file/music/1785933403355_Can_t_Stop_Love_-_Darin.lrc" 
     autoplay="false"
     loop="false"
     fixed="true"
