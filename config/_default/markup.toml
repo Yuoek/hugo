@@ -30,3 +30,9 @@
   startLevel = 2
   endLevel = 4
 
+
+[params.gitalk]
+owner = "Yuoek"
+repo = "comment"
+clientId = "Ov23li4DmR0SAirPyvSz"
+clientSecret = "b8132e8e29d151157ec9ce261d64c5e89da9fe9c"

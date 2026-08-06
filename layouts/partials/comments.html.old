@@ -10,6 +10,7 @@
 
     init({
       el: '#waline',
+      footer: false,
       serverURL: 'https://comment.yuoek.icu/',
       lang: 'zh-CN',
       locale: { placeholder: '请留下你的评论吧:)' },
