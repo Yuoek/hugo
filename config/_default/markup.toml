@@ -13,9 +13,20 @@
         block = [['\[', '\]'], ['$$', '$$']]
         inline = [['\(', '\)']]
 
+
 [highlight]
   noClasses = false
+  codeFences = true
+  guessSyntax = true
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  font_size = 19
+  lineNumbersInTable = true
+  tabWidth = 4
+  style = "murphy"
 
 [tableOfContents]
   startLevel = 2
   endLevel = 4
+

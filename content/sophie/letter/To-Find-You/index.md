@@ -2,6 +2,11 @@
 title: "To Find You "
 date: 2025-08-12T21:15:40+08:00
 summary: " 艾特熊的我与赛娜鼠的你 | 📬"
+categories: ["Sophie", "Letter"]
+tags: ["Sophie","Leter"]
+series: ["给 Sophie 的信 📮"]
+series_order: 1
+type: "posts"
 ---
 
 

@@ -2,6 +2,11 @@
 title: "Light of Future "
 date: 2025-09-04T18:30:40+08:00
 summary: "开往未来的绿皮火车 | 📬"
+categories: ["Sophie", "Letter"]
+tags: ["Sophie","Leter"]
+series: ["给 Sophie 的信 📮"]
+series_order: 4
+type: "posts"
 ---
 
 <!-- require APlayer -->

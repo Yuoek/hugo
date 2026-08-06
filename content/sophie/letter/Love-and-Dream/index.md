@@ -2,6 +2,11 @@
 title: "Love and Dream "
 date: 2025-08-29T20:20:40+08:00
 summary: " 一分耕耘，一分收获 | 📬"
+categories: ["Sophie", "Letter"]
+tags: ["Sophie","Leter"]
+series: ["给 Sophie 的信 📮"]
+series_order: 2
+type: "posts"
 ---
 
 

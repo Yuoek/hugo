@@ -2,6 +2,11 @@
 title: "Please Don't Crying"
 date: 2025-09-16T18:25:40+08:00
 summary: " 请不要在心灵上哭泣 | 📬"
+categories: ["Sophie", "Letter"]
+tags: ["Sophie","Leter"]
+series: ["给 Sophie 的信 📮"]
+series_order: 6
+type: "posts"
 ---
 
 <!-- require APlayer -->

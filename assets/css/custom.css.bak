@@ -98,9 +98,20 @@ section ul,section ol {
 section blockquote {
   margin:1.2rem 0;
 }
+/* 文章页面，让main容器冲破container限制 */
+main:has(.prose) {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 给内部内容左右留一点边距，防止文字贴屏幕边缘 */
+.prose {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
 /* 左上角导航站点标题字体样式 */
-                 
 .main-menu nav a[href="/ja/"],
 .main-menu nav a[href="/fr/"],
 .main-menu nav a[href="/es/"],
@@ -112,10 +123,8 @@ section blockquote {
 
 /* hover状态保持字体不变，只改颜色 */
 .main-menu nav a[href="/"]:hover {
-    /* font-family: "delphiaVillagefont"; */
     color: #ee98e3de;
 }
-
 
 @layer utilities {
   .series-grid {
@@ -125,6 +134,7 @@ section blockquote {
     padding: 0.75rem 0;
   }
 }
+
 /* 隐藏播放器侧边切换箭头（miniswitcher） */
 .aplayer-fixed .aplayer-miniswitcher {
     display: none !important;
@@ -147,47 +157,50 @@ section blockquote {
 }
 
 /*------------------------------------------------------------------------*/
-/* 取肖最大限制宽度 */
-.max-w-prose {  
-  max-width: none !important;  
+/* 取消最大限制宽度 */
+.max-w-prose {
+  max-width: none !important;
 }
 
-
-@font-face {  
-  font-family: 'title-font';  
-  src: url('/fonts/美绩点阵体.ttf') format('truetype');  
-  font-weight: normal;  
-  font-style: normal;  
+@font-face {
+  font-family: 'title-font';
+  src: url('/fonts/美绩点阵体.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   unicode-range: U+4E00-9FFF;  /* 只包含 CJK 中文范围 */
 }
 
-@font-face {  
-  font-family: 'list-font';  
-  src: url('/fonts/思源宋体花样钻纹.ttf') format('truetype');  
-  font-weight: normal;  
-  font-style: normal;  
+@font-face {
+  font-family: 'list-font';
+  src: url('/fonts/思源宋体花样钻纹.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   unicode-range: U+4E00-9FFF;  /* 只包含 CJK 中文范围 */
 }
 
-@font-face {  
-  font-family: 'list-font-en';  
-  src: url('/fonts/VerondSon-Regular.ttf') format('truetype');  
-  font-weight: normal;  
-  font-style: normal;  
+@font-face {
+  font-family: 'list-font-en';
+  src: url('/fonts/VerondSon-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-@font-face {  
-  font-family: 'title-font-en';  
-  src: url('/fonts/SuperMarioDsRegular-Ea4R8.ttf') format('truetype');  
-  font-weight: normal;  
-  font-style: normal;  
+@font-face {
+  font-family: 'title-font-en';
+  src: url('/fonts/SuperMarioDsRegular-Ea4R8.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* 正文中文：方正仿宋简体，限定只作用CJK字符 */
-@font-face {  
-  font-family: 'posts-font';  
-  src: url('/fonts/方正仿宋简体.ttf') format('truetype');  
-  font-weight: normal;  
+@font-face {
+  font-family: 'posts-font';
+  src: url('/fonts/方正仿宋简体.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
   unicode-range:
@@ -198,13 +211,13 @@ section blockquote {
 }
 
 /* 正文英文：VerondSon‑Regular，限定拉丁字母区间 */
-@font-face {  
-  font-family: 'posts-font-en';  
-  src: url('/fonts/SuperSimpleBrushScript-1Wy2.ttf') format('truetype');  
-  font-weight: normal;  
+@font-face {
+  font-family: 'posts-font-en';
+  src: url('/fonts/SuperSimpleBrushScript-1Wy2.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: 
+  unicode-range:
       U+0000-002F,
       U+0030-0039,
       U+003A-007F,
@@ -213,14 +226,14 @@ section blockquote {
       U+0180-024F;
 }
 
-/* 正文英文：VerondSon‑Regular，限定拉丁字母区间 */
-@font-face {  
-  font-family: 'code-font';  
-  src: url('/fonts/JetBrainsMonoNerdFontMono-BoldItalic.ttf') format('truetype');  
-  font-weight: normal;  
+/* 代码字体 */
+@font-face {
+  font-family: 'code-font';
+  src: url('/fonts/JetBrainsMonoNerdFontMono-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: 
+  unicode-range:
       U+0000-002F,
       U+0030-0039,
       U+003A-007F,
@@ -228,37 +241,12 @@ section blockquote {
       U+0100-017F,
       U+0180-024F;
 }
-
-/* 文章正文内容字体
-顺序：英文字体放前面，中文放后面。
-浏览器根据unicode‑range自动匹配字符：英文走posts‑en，中文走posts
-*/
-body,
-p,
-li,
-ul,
-ol,
-blockquote,
-code:not([class*="language-"]),
-div.content {
-  font-family: posts-font-en, posts-font, system-ui, sans-serif;
-}
-
-/* 侧边分类卡片标题：电影、音乐、美术、诗歌 */
-.group-hover-card-title {
-    font-family: list-font-en, list-font, system-ui;
-}
-
-h1:lang(zh), h2:lang(zh), h3:lang(zh), h4:lang(zh), h5:lang(zh), h6:lang(zh) {  
-  font-family: title-font-en, title-font;  
-}
-
 
 @font-face {
     font-family: 'ChineseFont';
     src: url('/fonts/ChillKai.woff') format('woff');
     font-display: swap;
-    unicode-range: 
+    unicode-range:
     U+4E00-9FFF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF;
 }
 
@@ -266,7 +254,7 @@ h1:lang(zh), h2:lang(zh), h3:lang(zh), h4:lang(zh), h5:lang(zh), h6:lang(zh) {
     font-family: 'EnglishFont';
     src: url('/fonts/HanaMinA.ttf');
     font-display: swap;
-    unicode-range: 
+    unicode-range:
         U+0000-007F,
         U+0080-00FF,
         U+0100-017F,
@@ -276,38 +264,63 @@ h1:lang(zh), h2:lang(zh), h3:lang(zh), h4:lang(zh), h5:lang(zh), h6:lang(zh) {
 @font-face {
     font-family: 'letterfont-zh';
     src: url('/fonts/zqp.ttf') format('truetype');
+    font-display: swap;
 }
-.fonts-letter-zh {
-    font-family: 'letterfont-zh', sans-serif;
-    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
-}
-
 @font-face {
     font-family: 'catalinafont';
-    src: url('static/fonts/Catalina.ttf') format('truetype');
+    src: url('/fonts/Catalina.ttf') format('truetype');
+    font-display: swap;
 }
-.fonts-catalina {
-    font-family: 'catalinafont', sans-serif;
-    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+@font-face {
+    font-family: 'hastheyafont';
+    src: url('/fonts/Hastheya.otf') format('truetype');
+    font-display: swap;
 }
-
 @font-face {
     font-family: 'verondsonfont';
     src: url('/fonts/VerondSon-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'delphiaVillagefont';
+    src: url('/fonts/DelphiaVillage.otf') format('truetype');
+    font-display: swap;
 }
 
-.fonts-verondson {
-    font-family: 'verondsonfont', sans-serif;
-    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+/* 文章正文，仅作用于 .prose，不污染全局 */
+.prose p,
+.prose li,
+.prose ul,
+.prose ol,
+.prose blockquote,
+.prose code:not([class*="language-"]) {
+  font-family: posts-font-en, posts-font, system-ui, sans-serif;
+}
+
+/* 侧边分类卡片标题 */
+.group-hover-card-title {
+    font-family: list-font-en, list-font, system-ui;
+}
+
+h1:lang(zh), h2:lang(zh), h3:lang(zh), h4:lang(zh), h5:lang(zh), h6:lang(zh) {
+  font-family: title-font-en, title-font;
 }
 
 html {
-    font-family: 'ChineseFont', 'EnglishFont', sans-serif; /* 添加备用字体 */
+    font-family: 'ChineseFont', 'EnglishFont', sans-serif;
     font-size: 16px;
 }
 
-
-
+/* --------修复 relative‑group flex吃掉标题margin-------- */
+.prose .relative-group {
+  display: block !important;
+  position: relative;
+}
+.prose .relative-group > .anchor {
+  position: absolute;
+  left: -1.75rem;
+  top: 0;
+}
 
 /* 添加字体预加载优化 */
 link[rel="preload"] {
@@ -316,17 +329,11 @@ link[rel="preload"] {
     crossorigin: "anonymous";
 }
 
-/* 优化字体加载性能 */
-body {
-    font-display: optional; /* 确保文本始终可见 */
-}
-
-
 h1 {
     color: #ee98e3de;
 }
 
-/* Blowfish congo主题 灰度字修改 */ 
+/* Blowfish congo主题 灰度字修改 */
 .text-neutral-900,
 .text-neutral-500 {
   color: #000000;
@@ -337,33 +344,31 @@ h1 {
   color: #ffff;
 }
 
-
 /*------------------------------------------------------------------------*/
 
-
 /* 粗体 */
-b, strong {  
-  margin: 1px 1px;  
-  padding: 1px;  
-  color: rgba(46, 64, 91, 0.94);  
+b, strong {
+  margin: 1px 1px;
+  padding: 1px;
+  color: rgba(46, 64, 91, 0.94);
   background-color: rgba(255, 205, 204, 0.54);
-  font-weight: 400;  
-}  
+  font-weight: 400;
+}
 
 /* 暗黑模式 */
-.dark b, .dark strong {  
-  margin: 1px 1px;  
-  padding: 1px;  
-  color: rgb(255, 255, 255, 0.90); /* 将文字颜色改为白色 */
+.dark b, .dark strong {
+  margin: 1px 1px;
+  padding: 1px;
+  color: rgb(255, 255, 255, 0.90);
   background-color: rgba(255, 205, 204, 0.54);
-  font-weight: 400;  
+  font-weight: 400;
 }
 
 /* 行内代码 */
 code:not(pre code) {
   margin: 1px 1px;
   padding: 1px;
-  color: rgba(46, 64, 91, 0.94);  
+  color: rgba(46, 64, 91, 0.94);
   background-color: rgba(129, 223, 231, 0.50);
   font-weight: 400;
 }
@@ -372,13 +377,12 @@ code:not(pre code) {
 .dark code:not(pre code) {
   margin: 1px 1px;
   padding: 1px;
-  color: rgb(255, 255, 255, 0.90); /* 将文字颜色改为白色 */
+  color: rgb(255, 255, 255, 0.90);
   background-color: rgba(129, 223, 231, 0.90);
   font-weight: 400;
 }
 
 /* 修改暗色模式下代码块里的代码文字背景透明 */
-/* 代码块背景 */
 .prose .chroma {
       position: static;
       border-radius: 0;
@@ -386,7 +390,6 @@ code:not(pre code) {
       color: rgb(231 66 134);
       border: 1px solid rgba(124, 192, 231, 0.5);
 }
-/* 暗色模式 */
 .dark .prose .chroma {
       position: static;
       border-radius: var(--radius-md);
@@ -402,82 +405,80 @@ pre, code {
     font-family:  'code-font', 'ChineseFont';
     font-size: 12px;
     line-height: 1.5;
-    overflow-x: auto; /* 启用水平滚动 */
-    max-height: 400px; /* 限制最大高度，启用垂直滚动 */
-    overflow-y: auto; /* 启用垂直滚动 */
+    overflow-x: auto;
+    max-height: 400px;
+    overflow-y: auto;
 }
 
-滚动条样式
-pre::-webkit-scrollbar {
-  width: 2px;
-  height: 2px;
-}
+/* /* 滚动条样式 */ */
+/* pre::-webkit-scrollbar { */
+/*   width: 2px; */
+/*   height: 2px; */
+/* } */
+/**/
+/* pre::-webkit-scrollbar-track { */
+/*   background: #7cc0e7; */
+/*   border-radius: 2px; */
+/* } */
+/**/
+/* pre::-webkit-scrollbar-thumb { */
+/*   background: #ee98e3de; */
+/*   border-radius: 0px; */
+/* } */
+/**/
+/* pre::-webkit-scrollbar-thumb:hover { */
+/*   background: #fff; */
+/* } */
+/**/
+/* /* 响应式调整 */ */
+/* @media (max-width: 768px) { */
+/*   pre { */
+/*     padding: 12px; */
+/*     font-size: 13px; */
+/*     max-height: 300px; */
+/*   } */
+/* } */
+/**/
+/* /* 代码块容器样式 */ */
+/* .highlight { */
+/*   position: relative; */
+/*   margin: 1em 0; */
+/*   border-radius: 2px; */
+/*   overflow: auto; */
+/* } */
+/**/
+/* /* 显示行号 */ */
+/* .highlight pre { */
+/*   padding-left: 3.8em; */
+/*   counter-reset: linenumber; */
+/* } */
+/**/
+/**/
+/* .highlight pre .line::before { */
+/*   position: absolute; */
+/*   left: -3.8em; */
+/*   width: 3.2em; */
+/*   text-align: right; */
+/*   content: counter(linenumber); */
+/*   counter-increment: linenumber; */
+/*   color: #0000005a; */
+/*   border-right: 1px solid #7cc0e7; */
+/*   padding-right: 0.8em; */
+/*   user-select: none; */
+/* } */
+/**/
+/* .highlight pre code { */
+/*   user-select: text; */
+/* } */
 
-pre::-webkit-scrollbar-track {
-  background: #7cc0e7;
-  border-radius: 2px;
-}
-
-pre::-webkit-scrollbar-thumb {
-  background: #ee98e3de;
-  border-radius: 0px;
-}
-
-pre::-webkit-scrollbar-thumb:hover {
-  background: #fff;
-}
-
-
-/* 响应式调整 */
-@media (max-width: 768px) {
-  pre {
-    padding: 12px;
-    font-size: 13px;
-    max-height: 300px;
-  }
-}
-
-/* 代码块容器样式 */
-.highlight {
-  position: relative;
-  margin: 1em 0;
-  border-radius: 2px;
-  overflow: auto;
-}
-
-/* 显示行号 */
-.highlight pre {
-  padding-left: 3.8em; /* 为行号预留空间 */
-  counter-reset: linenumber;
-}
+/* -------------------------------------------------------------------------*/
 
 .highlight pre .line {
   position: relative;
   display: block;
   line-height: 1.5;
 }
-
-.highlight pre .line::before {
-  position: absolute;
-  left: -3.8em;
-  width: 3.2em;
-  text-align: right;
-  content: counter(linenumber);
-  counter-increment: linenumber;
-  color: #0000005a;
-  border-right: 1px solid #7cc0e7;
-  padding-right: 0.8em;
-  user-select: none; /* 关键属性：防止行号被选中复制 */
-}
-
-/* 确保代码本身可以被选中 */
-.highlight pre code {
-  user-select: text;
-}
-
-/* -------------------------------------------------------------------------*/
-
-/* Aplyer 样式修改 */                                                                     
+/* Aplayer 样式修改 */
 .aplayer,
 .aplayer .aplayer-body,
 .aplayer .aplayer-info,
@@ -487,72 +488,58 @@ pre::-webkit-scrollbar-thumb:hover {
 .aplayer .aplayer-notice {
     background: transparent !important;
     font-family:  'EnglishFont', 'ChineseFont';
-    box-shadow: none !important; /* 移除阴影 */
+    box-shadow: none !important;
 }
 
-/* 按钮样式设为淡橙色 */
 .aplayer .aplayer-icon path {
-    fill: #FFA500 !important; /* 淡橙色 */
-    box-shadow: none !important; /* 移除阴影 */
+    fill: #FFA500 !important;
+    box-shadow: none !important;
 }
 
-/* fixed 样式下按钮颜色设为淡蓝色 */
 .aplayer.aplayer-fixed .aplayer-icon path {
-    fill: #87CEEB !important; /* 淡蓝色 */
+    fill: #87CEEB !important;
 }
 
-/* 歌词区域前景透明，无样式 */
 .aplayer .aplayer-lrc {
     background: transparent !important;
-    box-shadow: none !important; /* 移除阴影 */
+    box-shadow: none !important;
 }
-/* 当前播放歌词设为粉色，未播放歌词设为蓝色 */
 .aplayer .aplayer-lrc p.aplayer-lrc-current {
-    color: #FF69B4 !important; /* 粉色 */
+    color: #FF69B4 !important;
 }
 .aplayer .aplayer-lrc p {
-    color: #0000FF !important; /* 蓝色 */
-    box-shadow: none !important; /* 移除阴影 */
+    color: #0000FF !important;
+    box-shadow: none !important;
     text-shadow: none !important;
 }
 
-
-.aplayer .aplayer-lrc:before, 
+.aplayer .aplayer-lrc:before,
 .aplayer .aplayer-lrc:after {
     background: none !important;
 }
 
-/* 图片圆角 */
 .aplayer .aplayer-pic,
 .aplayer .aplayer-pic .aplayer-button {
     border-radius: 50% !important;
     box-shadow: none !important;
 }
 
-/* .aplayer .aplayer-list ol::-webkit-scrollbar-thumb { */
-/*     background-color: transparent !important; */
-/* } */
-
-
-/* -------------------------------------------------------------------------*/
-
-
 #fixed-aplayer {
-    position: fixed; /* 固定定位 */
-    z-index: 1000;   /* 确保在其他内容上方 */
-    bottom: 40px;       /* 距离底部为 0 */
-    left: 50%;       /* 水平位置设为 50% */
-    transform: translateX(-50%); /* 将元素向左移动自身宽度的 50%，实现居中 */
+    position: fixed;
+    z-index: 1000;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* -------------------------------------------------------------------------*/
 
-/* Chart-js */
+/* Chart‑js */
 .chart-container {
     position: relative;
     height: 400px;
     width: 70%;
-    margin: 0 auto; /* 水平居中 */
+    margin: 0 auto;
 }
 
 canvas {
@@ -560,25 +547,20 @@ canvas {
     max-width: 100%;
     height: 400px;
     width: 70%;
-    aspect-ratio: 16/9; /* 保持图形比例正常 */
-    margin: 0 auto; /* 水平居中 */
+    aspect-ratio: 16/9;
+    margin: 0 auto;
 }
 
-/* 响应式调整 */
 @media (max-width: 768px) {
     .chart-container {
         height: 400px;
-        width: 90%; /* 在小屏幕上增加宽度 */
+        width: 90%;
     }
-    
     canvas {
         height: 300px;
-        width: 90%; /* 在小屏幕上增加宽度 */
+        width: 90%;
     }
 }
-
-
-
 
 /* ---------- 友链卡片样式开始 ---------- */
 .friend-link-container {
@@ -618,7 +600,7 @@ a.friend-link:hover {
   transform: translateY(-2px);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-} 
+}
 
 .friend-link-div {
   display: flex;
@@ -634,6 +616,11 @@ a.friend-link:hover {
   flex-shrink: 0;
   margin-right: 10px;
   border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+a.friend-link:hover .friend-avatar {
+  transform: rotate(360deg);
 }
 
 .friend-link-info {
@@ -686,41 +673,34 @@ a.friend-link:hover {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
-/* 响应式优化 */
 @media screen and (max-width: 600px) {
   .friend-link-container {
     padding: 15px;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
-  
   .friend-link-div {
     flex-direction: row;
     padding: 12px 16px;
   }
-
   .friend-avatar {
     width: 56px;
     height: 56px;
     margin-right: 12px;
   }
-
   .friend-name {
     font-size: 16px;
   }
-
   .friend-bio {
     font-size: 14px;
   }
 }
 
-/* 添加毛玻璃效果过渡动画 */
 .friend-link-container,
 .friend-link {
   transition: backdrop-filter 0.3s ease, background 0.3s ease;
 }
 
-/* 增强毛玻璃效果的层级 */
 .friend-link-container::before {
   content: '';
   position: fixed;
@@ -733,64 +713,24 @@ a.friend-link:hover {
   z-index: -1;
 }
 
-/* 确保内容在模糊背景上层 */
 .friend-link-container > * {
   position: relative;
   z-index: 1;
 }
 
-/* 头像旋转 */
-.friend-avatar {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-  margin-right: 10px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: transform 0.3s ease;
-}
-
-a.friend-link:hover .friend-avatar {
-  transform: rotate(360deg);
-}
-
-/*------------------------------------------------------------------------*/
-
-@font-face {
-    font-family: 'letterfont-zh';
-    src: url('/fonts/zqp.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'catalinafont';
-    src: url('/fonts/Catalina.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'hastheyafont';
-    src: url('/fonts/Hastheya.otf') format('truetype');
-}
-@font-face {
-    font-family: 'verondsonfont';
-    src: url('/fonts/VerondSon-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'delphiaVillagefont';
-    src: url('/fonts/DelphiaVillage.otf') format('truetype');
-}
-/* ------------------------------------ */
+/* 自定义工具字体类 */
 .fonts-letter-zh {
     font-family: 'letterfont-zh', sans-serif;
-    /* color: #7cc0e7; */
     color: rgba(2, 2, 2, 1);
-    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+    font-size: 1.214rem;
 }
 .fonts-catalina {
     font-family: 'catalinafont', sans-serif;
-    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+    font-size: 1.214rem;
 }
 .fonts-hastheya {
     font-family: 'hastheyafont', sans-serif;
-    font-size: 1.214rem; /* 24px ÷ 14px = 1.714rem */
+    font-size: 1.214rem;
 }
 .fonts-verondson {
     font-family: 'verondsonfont', sans-serif;
@@ -801,7 +741,3 @@ a.friend-link:hover .friend-avatar {
     font-size: 48px;
     color: #ee98e3de;
 }
-
-
-/* ---------------------------------------------------------------------------- */
-

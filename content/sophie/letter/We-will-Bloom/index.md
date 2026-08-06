@@ -2,6 +2,11 @@
 title: "We will Bloom"
 date: 2025-09-10T20:12:11+08:00
 summary: " 人见人爱，花见花开 | 📬"
+categories: ["Sophie", "Letter"]
+tags: ["Sophie","Leter"]
+series: ["给 Sophie 的信 📮"]
+series_order: 5
+type: "posts"
 ---
 
 <!-- require APlayer -->

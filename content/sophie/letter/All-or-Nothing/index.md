@@ -2,6 +2,11 @@
 title: "All or Nothing"
 date: 2025-08-29T23:32:40+08:00
 summary: "给 Sophie 的信 | 📬"
+categories: ["Sophie", "Letter"]
+tags: ["Sophie","Leter"]
+series: ["给 Sophie 的信 📮"]
+series_order: 3
+type: "posts"
 ---
 
 <!-- require APlayer -->
