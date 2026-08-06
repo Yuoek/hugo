@@ -30,6 +30,9 @@
   startLevel = 2
   endLevel = 4
 
+[Params]
+gitalk = true
+
 
 [params.gitalk]
 owner = "Yuoek"
