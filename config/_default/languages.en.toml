@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 2
-title = "Yuoek"
+title = "Dear Yuoek:"
 
 [params]
   displayName = "English"
@@ -16,7 +16,7 @@ title = "Yuoek"
 
 [params.author]
   name = "Yuoek"
-  email = "youremail@example.com"
+  email = "yuoek@yuoek.icu"
   image = "img/flyfull.png"
   imageQuality = 96
   headline = "Dream and Love All Of You!"

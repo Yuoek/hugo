@@ -2,7 +2,7 @@ disabled = false
 languageCode = "zh-cn"
 languageName = "Simplified Chinese"
 weight = 1
-title = "Yuoek"
+title = "Dear Yuoek:"
 
 [params]
   displayName = "简体中文"

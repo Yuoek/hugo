@@ -1,0 +1,143 @@
+<style>
+#notebook-bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+/* 浅色模式纸张底色 */
+body {
+  background-color: #fcfcfb !important;
+}
+/* blowfish 暗色模式会给 html 添加 class="dark" */
+html.dark body {
+  background-color: #222226 !important;
+}
+</style>
+<canvas id="notebook-bg-canvas"></canvas>
+<script>
+(function() {
+  const canvas = document.getElementById('notebook-bg-canvas');
+  const ctx = canvas.getContext('2d');
+
+  const config = {
+    lineHeight: 28,
+    lineWidth: 1,
+    paperNoise: true,
+    lightLine: '#e8e8e8',  /* 亮色模式网格 */
+    darkLine: '#383840'    /* 暗色模式网格，暗灰，不会刺眼 */
+  };
+
+  // 判断当前是否暗色模式
+  function isDarkMode(){
+    return document.documentElement.classList.contains("dark");
+  }
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    drawGrid();
+  }
+
+  function drawGrid() {
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    // 根据明暗切换线条颜色
+    ctx.strokeStyle = isDarkMode() ? config.darkLine : config.lightLine;
+    ctx.lineWidth = config.lineWidth;
+    ctx.beginPath();
+    for(let y = 0; y < canvas.height; y += config.lineHeight) {
+      ctx.moveTo(0, y);
+      ctx.lineTo(canvas.width, y);
+    }
+    ctx.stroke();
+
+    if(config.paperNoise){
+      const imageData = ctx.getImageData(0,0,canvas.width,canvas.height);
+      const data = imageData.data;
+      for(let i = 0; i < data.length; i +=4) {
+        const noise = Math.random() * 6 - 3;
+        data[i]     += noise;
+        data[i+1]   += noise;
+        data[i+2]   += noise;
+      }
+      ctx.putImageData(imageData,0,0);
+    }
+  }
+
+  // 窗口大小变化重绘
+  window.addEventListener('resize', resizeCanvas);
+
+  // 监听 class 变化，切换暗色/亮色主题立刻重绘网格
+  const observer = new MutationObserver((mutations)=>{
+    for(let mut of mutations){
+      if(mut.attributeName === 'class'){
+        drawGrid();
+      }
+    }
+  });
+  observer.observe(document.documentElement, {attributes:true});
+
+  resizeCanvas();
+})();
+</script>
+
+<div class="mt-0 text-right text-sm text-neutral-500 dark:text-neutral-400 space-y-1">
+  {{ $articles := where .Site.RegularPages "Type" "posts" }}
+  {{ $articleCount := len $articles }}
+  {{ $totalWord := 0 }}
+  {{ range $articles }}
+    {{ $totalWord = add $totalWord .WordCount }}
+  {{ end }}
+  {{ $kwords := div $totalWord 1000.0 }}
+  <p> {{ $articleCount }} 篇文章 - {{ printf "%.2fk" $kwords }} 字 📝</p>
+  <p><span id="site-runtime" style="font‑family:monospace;display:inline‑block;min‑width:22ch;text‑align:right;"></span> 🕛 </p>
+</div>
+
+<script>
+const siteBirth = new Date("2025-08-01T00:00:00");
+
+// 数字补前导空格，固定2位宽度
+function pad2(n) {
+  return String(n).padStart(2, " ");
+}
+// 天数固定4位宽度
+function padDay(n) {
+  return String(n).padStart(4, " ");
+}
+
+function updateRuntime() {
+  const now = new Date();
+  let diffMs = now.getTime() - siteBirth.getTime();
+
+  if(isNaN(diffMs) || diffMs < 0) {
+    document.getElementById("site-runtime").innerText = "----天--小时--分--秒";
+    return;
+  }
+
+  const dayMs = 24*60*60*1000;
+  const hourMs = 60*60*1000;
+  const minMs = 60*1000;
+  const secMs = 1000;
+
+  const days = Math.floor(diffMs / dayMs);
+  diffMs = diffMs % dayMs;
+
+  const hours = Math.floor(diffMs / hourMs);
+  diffMs = diffMs % hourMs;
+
+  const mins = Math.floor(diffMs / minMs);
+  diffMs = diffMs % minMs;
+
+  const secs = Math.floor(diffMs / secMs);
+
+  // 每个字段固定占位，等宽字体下宽度恒定，不会抖动
+  const text = `${padDay(days)}天${pad2(hours)}小时${pad2(mins)}分${pad2(secs)}秒`;
+  document.getElementById("site-runtime").innerText = text;
+}
+
+updateRuntime();
+setInterval(updateRuntime, 1000);
+</script>

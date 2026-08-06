@@ -3,10 +3,12 @@ title: 链接
 weight: 99
 ---
 
-`注意：链接跳转有风险, 复制关键域名由浏览器搜索匹配再点进去`
+`注意：链接跳转有风险`
 
 ## 音乐解析
 
-music.znnu
+```bash
+music.znnu.com
+mp3.ltyuanfang.cn
+```
 
-mp3.ltyuanfang

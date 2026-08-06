@@ -1,4 +1,23 @@
 
+
+/* 左上角导航站点标题字体样式 */
+                 
+.main-menu nav a[href="/ja/"],
+.main-menu nav a[href="/fr/"],
+.main-menu nav a[href="/es/"],
+.main-menu nav a[href="/en/"],
+.main-menu nav a[href="/"] {
+    font-family: "delphiaVillagefont", serif;
+    font-size: 1.85rem;
+}
+
+/* hover状态保持字体不变，只改颜色 */
+.main-menu nav a[href="/"]:hover {
+    /* font-family: "delphiaVillagefont"; */
+    color: #ee98e3de;
+}
+
+
 @layer utilities {
   .series-grid {
     display: grid;
@@ -35,26 +54,96 @@
 }
 
 
-/* 优化字体加载优先级 */
-/* 设置中文字体 */
+@font-face {  
+  font-family: 'title-font';  
+  src: url('/fonts/美绩点阵体.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;  
+  unicode-range: U+4E00-9FFF;  /* 只包含 CJK 中文范围 */
+}
+
+@font-face {  
+  font-family: 'list-font';  
+  src: url('/fonts/思源宋体花样钻纹.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;  
+  unicode-range: U+4E00-9FFF;  /* 只包含 CJK 中文范围 */
+}
+
+@font-face {  
+  font-family: 'title-font-en';  
+  src: url('/fonts/SuperMarioDsRegular-Ea4R8.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;  
+}
+
+/* 正文中文：方正仿宋简体，限定只作用CJK字符 */
+@font-face {  
+  font-family: 'posts';  
+  src: url('/fonts/方正仿宋简体.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+4E00-9FFF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF;
+}
+
+/* 正文英文：VerondSon‑Regular，限定拉丁字母区间 */
+@font-face {  
+  font-family: 'posts-en';  
+  src: url('/fonts/SuperSimpleBrushScript-1Wy2.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;
+  font-display: swap;
+  unicode-range: 
+      U+0000-007F,
+      U+0080-00FF,
+      U+0100-017F,
+      U+0030-0039,
+      U+0180-024F;
+}
+
+/* 文章正文内容字体
+顺序：英文字体放前面，中文放后面。
+浏览器根据unicode‑range自动匹配字符：英文走posts‑en，中文走posts
+*/
+body,
+p,
+li,
+ul,
+ol,
+blockquote,
+code:not([class*="language-"]),
+div.content {
+  font-family: posts-en, posts, system-ui, sans-serif;
+}
+
+/* 侧边分类卡片标题：电影、音乐、美术、诗歌 */
+.group-hover-card-title {
+    font-family: title-font-en, list-font, system-ui;
+}
+
+h1:lang(zh), h2:lang(zh), h3:lang(zh), h4:lang(zh), h5:lang(zh), h6:lang(zh) {  
+  font-family: title-font-en, title-font;  
+}
+
+
 @font-face {
     font-family: 'ChineseFont';
     src: url('/fonts/ChillKai.woff') format('woff');
-    font-display: swap; /* 优化字体加载行为 */
+    font-display: swap;
     unicode-range: 
     U+4E00-9FFF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF;
 }
 
-/* 设置英文字体 */
 @font-face {
     font-family: 'EnglishFont';
     src: url('/fonts/HanaMinA.ttf');
-    font-display: swap; /* 优化字体加载行为 */
+    font-display: swap;
     unicode-range: 
-        U+0000-007F,        /* 基本拉丁字符（英文） */
-        U+0080-00FF,        /* 拉丁文补充1（常见西欧字符） */
-        U+0100-017F,        /* 拉丁文扩展A（更多西欧字符） */
-        U+0180-024F;        /* 拉丁文扩展B（包括法语、西班牙语特殊字符） */
+        U+0000-007F,
+        U+0080-00FF,
+        U+0100-017F,
+        U+0180-024F;
 }
 
 @font-face {
@@ -87,7 +176,7 @@
 
 html {
     font-family: 'ChineseFont', 'EnglishFont', sans-serif; /* 添加备用字体 */
-    font-size: 14pt;
+    font-size: 13pt;
 }
 
 
