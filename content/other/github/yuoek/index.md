@@ -21,38 +21,3 @@ weight: 9
 | 04  | {{< github repo="Yuoek/pytorch-tutorial" >}}      | <a href="https://codeload.github.com/Yuoek/pytorch-tutorial/zip/refs/heads/master" download="pytorch-tutorial.zip ">📦 下载pytorch-tutorial.zip</a>      |       |
 | 05  | {{< github repo="Yuoek/os-tutorial" >}} | <a href="https://codeload.github.com/Yuoek/os-tutorial/zip/refs/heads/master" download="os-tutorial.zip ">📦 下载os-tutorial.zip</a> |                                     |
 | 06  | {{< github repo="Yuoek/pytorch-tutorial" >}}      | <a href="https://codeload.github.com/Yuoek/pytorch-tutorial/zip/refs/heads/master" download="pytorch-tutorial.zip ">📦 下载pytorch-tutorial.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-|     | {{< github repo="Yuoek/" >}}      | <a href="https://codeload.github.com/Yuoek//zip/refs/heads/master" download=".zip ">📦 下载.zip</a>      |       |
-
-
