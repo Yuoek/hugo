@@ -1,5 +1,5 @@
 ---
-title: 资源下载
+title: 下载
 weight: 99
 ---
 
