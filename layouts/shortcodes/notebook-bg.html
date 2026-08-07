@@ -1,0 +1,143 @@
+{{/*
+多贴纸，支持单张贴纸自定义opacity
+{{< notebook-bg >}}
+[
+  {"src":"/svg/sticker-balloon.svg","size":130,"left":"50%","top":"50%","rotate":0,"opacity":0.25},
+  {"src":"/svg/sticker-balloon.svg","size":80,"left":20,"top":20,"rotate":5}
+]
+{{< /notebook-bg >}}
+*/}}
+{{ $rawStickers := trim .Inner " \n\r\t" }}
+{{ $defaultStickers := `[
+  {"src":"/svg/sticker-balloon.svg","size":120,"bottom":32,"right":24,"left":"auto","top":"auto","rotate":0}
+]` }}
+{{ $stickersStr := cond (ne $rawStickers "") $rawStickers $defaultStickers }}
+
+<style>
+#notebook-bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+#bg-stickers {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+.bg-sticker {
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: auto;
+  opacity: 0.45;
+  transform-origin: center center;
+  transition: opacity 0.2s ease;
+}
+html.dark .bg-sticker {
+  opacity: 0.35;
+}
+body {
+  background-color: #fcfcfb !important;
+}
+html.dark body {
+  background-color: #222226 !important;
+}
+</style>
+
+<canvas id="notebook-bg-canvas"></canvas>
+<div id="bg-stickers"></div>
+
+<script>
+(function() {
+  const canvas = document.getElementById('notebook-bg-canvas');
+  const ctx = canvas.getContext('2d');
+  const config = {
+    lineHeight: 28,
+    lineWidth: 1,
+    paperNoise: true,
+    lightLine: '#e8e8e8',
+    darkLine: '#383840'
+  };
+  function isDarkMode(){
+    return document.documentElement.classList.contains("dark");
+  }
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    drawGrid();
+  }
+  function drawGrid() {
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx.strokeStyle = isDarkMode() ? config.darkLine : config.lightLine;
+    ctx.lineWidth = config.lineWidth;
+    ctx.beginPath();
+    for(let y = 0; y < canvas.height; y += config.lineHeight) {
+      ctx.moveTo(0, y);
+      ctx.lineTo(canvas.width, y);
+    }
+    ctx.stroke();
+    if(config.paperNoise){
+      const imageData = ctx.getImageData(0,0,canvas.width,canvas.height);
+      const data = imageData.data;
+      for(let i = 0; i < data.length; i +=4) {
+        const noise = Math.random() * 6 - 3;
+        data[i]     += noise;
+        data[i+1]   += noise;
+        data[i+2]   += noise;
+      }
+      ctx.putImageData(imageData,0,0);
+    }
+  }
+  window.addEventListener('resize', resizeCanvas);
+  const observer = new MutationObserver((mutations)=>{
+    for(let mut of mutations){
+      if(mut.attributeName === 'class') drawGrid();
+    }
+  });
+  observer.observe(document.documentElement, {attributes:true});
+  resizeCanvas();
+})();
+</script>
+
+<script>
+(function(){
+  const stickerJson = {{ $stickersStr | safeJS }};
+  const container = document.getElementById('bg-stickers');
+  if(!container.dataset.inited){
+    stickerJson.forEach((sticker)=>{
+      const img = document.createElement('img');
+      img.src = sticker.src;
+      img.alt = '';
+      img.className = 'bg-sticker';
+      img.style.width = `${sticker.size}px`;
+
+      if(sticker.bottom!==undefined) img.style.bottom = `${sticker.bottom}px`;
+      if(sticker.right!==undefined) img.style.right = `${sticker.right}px`;
+      if(sticker.left!==undefined) img.style.left = sticker.left;
+      if(sticker.top!==undefined) img.style.top = sticker.top;
+
+      // 单张贴纸自定义透明度
+      if(sticker.opacity !== undefined){
+        img.style.opacity = sticker.opacity;
+      }
+
+      const rotate = sticker.rotate || 0;
+      if(String(sticker.left) === "50%" && String(sticker.top) === "50%"){
+        img.style.transform = `translate(-50%, -50%) rotate(${rotate}deg)`;
+      }else{
+        img.style.transform = `rotate(${rotate}deg)`;
+      }
+      container.appendChild(img);
+    });
+    container.dataset.inited="1";
+  }
+})();
+</script>

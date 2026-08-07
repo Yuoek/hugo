@@ -1882,7 +1882,7 @@ body.zen-mode-enable {
     background-color: rgba(var(--color-primary-100), 1);
   }
   .bg-primary-200 {
-    background-color: rgba(245, 177, 255, 0.05);
+    background-color: rgba(245, 177, 255, 0.00);
   }
   .bg-primary-500 {
     background-color: rgba(var(--color-primary-500), 1);

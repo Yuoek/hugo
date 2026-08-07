@@ -155,3 +155,13 @@ with torch.no_grad():
 torch.save(model.state_dict(), 'model.ckpt')
 
 ```
+
+
+{{< notebook-bg >}}
+[
+  {"src":"/pic/svg/sticker-balloon.svg","size":130,"left":"50%","top":"50%","rotate":-30,"opacity":1},
+  {"src":"/pic/svg/sticker-alpaca.svg","size":80,"left":"50%","top":"50%","rotate":5,"opacity":1},
+  {"src":"/pic/svg/sticker-alpaca.svg","size":180,"left":20,"top":"20%","rotate":5,"opacity":0.35},
+  {"src":"/pic/svg/sticker-balloon.svg","size":90,"right":30,"bottom":30,"rotate":-6}
+]
+{{< /notebook-bg >}}

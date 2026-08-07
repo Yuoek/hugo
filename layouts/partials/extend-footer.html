@@ -92,8 +92,8 @@ html.dark body {
     {{ $totalWord = add $totalWord .WordCount }}
   {{ end }}
   {{ $kwords := div $totalWord 1000.0 }}
-  <p> {{ $articleCount }} 篇文章 - {{ printf "%.2fk" $kwords }} 字 📝</p>
-  <p><span id="site-runtime" style="font‑family:monospace;display:inline‑block;min‑width:22ch;text‑align:right;"></span> 🕛 </p>
+  <p> {{ $articleCount }} 篇文章 - {{ printf "%.2fk" $kwords }} 字 </p>
+  <p><span id="site-runtime" style="font‑family:monospace;display:inline‑block;min‑width:22ch;text‑align:right;"></span>  </p>
 </div>
 
 <script>
