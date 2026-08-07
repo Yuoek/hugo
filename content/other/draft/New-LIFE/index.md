@@ -13,6 +13,7 @@ type: "posts"
 <!-- require MetingJS -->
 <script src="/renderjs/meting/dist/Meting.min.js"></script>
 
+![flower](/pic/svg/flower_1.svg)
 
 <p class="fonts-delphiaVillagefont"> All Or Nothing </p>
 
@@ -27,6 +28,16 @@ type: "posts"
     mutex="true">
 </meting-js>
 
+
+{{< notebook-bg >}}
+[
+  {"src":"/pic/svg/sticker-balloon.svg","size":130,"left":"50%","top":"50%","rotate":-30,"opacity":1},
+  {"src":"https://img-08.stickers.cloud/packs/7b072525-5e79-4e83-b6fa-d1598a4d7111/webp/animated/af414db1-9b96-4675-ad43-d6453825b996.webp","size":80,"left":"50%","top":"50%","rotate":5,"opacity":1},
+  {"src":"/pic/svg/sticker-alpaca.svg","size":180,"left":20,"top":"20%","rotate":5,"opacity":0.35},
+]
+{{< /notebook-bg >}}
+
+![alt text](https://img-08.stickers.cloud/packs/7b072525-5e79-4e83-b6fa-d1598a4d7111/webp/animated/af414db1-9b96-4675-ad43-d6453825b996.webp) 
 # Sophiw 😄
 
 我在未来等你。
@@ -157,11 +168,4 @@ torch.save(model.state_dict(), 'model.ckpt')
 ```
 
 
-{{< notebook-bg >}}
-[
-  {"src":"/pic/svg/sticker-balloon.svg","size":130,"left":"50%","top":"50%","rotate":-30,"opacity":1},
-  {"src":"/pic/svg/sticker-alpaca.svg","size":80,"left":"50%","top":"50%","rotate":5,"opacity":1},
-  {"src":"/pic/svg/sticker-alpaca.svg","size":180,"left":20,"top":"20%","rotate":5,"opacity":0.35},
-  {"src":"/pic/svg/sticker-balloon.svg","size":90,"right":30,"bottom":30,"rotate":-6}
-]
-{{< /notebook-bg >}}
+
