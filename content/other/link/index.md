@@ -8,7 +8,7 @@ weight: 99
 ## 音乐解析
 
 ```bash
-music.znnu.com
-mp3.ltyuanfang.cn
+https://music.znnu.com
+https://mp3.ltyuanfang.cn
 ```
 

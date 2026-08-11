@@ -1,0 +1,66 @@
+
+{{/* meting‑lazy：真正懒加载，DOM静态保留meting‑js标签，延迟加载js/css */}}
+{{$name := .Get "name"}}
+{{$artist := .Get "artist"}}
+{{$url := .Get "url"}}
+{{$cover := .Get "cover"}}
+{{$lrc := .Get "lrc"}}
+{{$autoplay := .Get "autoplay" | default "false"}}
+{{$loop := .Get "loop" | default "false"}}
+{{$mutex := .Get "mutex" | default "true"}}
+{{$fixed := .Get "fixed" | default "false"}}
+{{$mini := .Get "mini" | default "false"}}
+
+<div class="meting-lazy-wrap">
+<meting-js
+    name="{{$name}}"
+    artist="{{$artist}}"
+    url="{{$url}}"
+    cover="{{$cover}}"
+    lrc="{{$lrc}}"
+    autoplay="{{$autoplay}}"
+    loop="{{$loop}}"
+    mutex="{{$mutex}}"
+    fixed="{{$fixed}}"
+    mini="{{$mini}}"
+></meting-js>
+</div>
+
+<script>
+(function(){
+  const wrap = document.querySelector(".meting-lazy-wrap");
+  let loaded = false;
+
+  async function loadPlayerAssets(){
+    if(loaded) return;
+    loaded = true;
+    // css
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "/renderjs/aplayer/dist/APlayer.min.css";
+    document.head.appendChild(link);
+
+    await new Promise(resolve=>{
+      const s1 = document.createElement("script");
+      s1.src = "/renderjs/aplayer/dist/APlayer.min.js";
+      s1.onload = resolve;
+      document.body.appendChild(s1);
+    });
+    await new Promise(resolve=>{
+      const s2 = document.createElement("script");
+      s2.src = "/renderjs/meting/dist/Meting.min.js";
+      s2.onload = resolve;
+      document.body.appendChild(s2);
+    });
+  }
+
+  const io = new IntersectionObserver((entries)=>{
+    const entry = entries[0];
+    if(!entry.isIntersecting) return;
+    io.unobserve(entry.target);
+    loadPlayerAssets();
+  }, {rootMargin:"250px"});
+
+  io.observe(wrap);
+})();
+</script>

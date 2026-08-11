@@ -1,0 +1,336 @@
+{{- $height := .Get "height" | default "34em" -}}
+{{- $theme := .Get "theme" | default "yuoek" -}}
+<style>
+.reveal-embed-wrap {
+  margin:1em 0;
+  background: var(--page-bg);
+}
+.reveal-embed-wrap iframe {
+  width:100%;
+  height:{{ $height }};
+  border:0;
+}
+</style>
+
+<div class="reveal-embed-wrap">
+<iframe id="reveal-{{ .Ordinal }}"></iframe>
+</div>
+
+
+<script>
+(function(){
+  const iframe = document.getElementById("reveal-{{ .Ordinal }}");
+  const fullPage = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>reveal.js</title>
+<meta name="description" content="A framework for easily creating beautiful presentations using HTML" />
+<meta name="author" content="Hakim El Hattab" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="{{ "renderjs/revealjs/dist/reset.css" | relURL }}">
+<link rel="stylesheet" href="{{ "renderjs/revealjs/dist/reveal.css" | relURL }}">
+<link rel="stylesheet" href="{{ printf "renderjs/revealjs/dist/theme/%s.css" $theme | relURL }}" id="theme">
+<link rel="stylesheet" href="{{ "renderjs/revealjs/dist/plugin/highlight/monokai.css" | relURL }}">
+
+<style>
+/* ========== 1. 在这里粘贴你全部 @font-face 字体定义 ========== */
+@font-face {  
+  font-family: 'title-font';  
+  src: url('/fonts/美绩点阵体.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;  
+  unicode-range: U+4E00-9FFF;  /* 只包含 CJK 中文范围 */
+}
+
+@font-face {  
+  font-family: 'list-font';  
+  src: url('/fonts/思源宋体花样钻纹.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;  
+  unicode-range: U+4E00-9FFF;  /* 只包含 CJK 中文范围 */
+}
+
+@font-face {  
+  font-family: 'list-font-en';  
+  src: url('/fonts/VerondSon-Regular.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;  
+}
+
+@font-face {  
+  font-family: 'title-font-en';  
+  src: url('/fonts/SuperMarioDsRegular-Ea4R8.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;  
+}
+
+/* 正文中文：方正仿宋简体，限定只作用CJK字符 */
+@font-face {  
+  font-family: 'posts-font';  
+  src: url('/fonts/方正仿宋简体.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+4E00-9FFF,     /* 汉字 */
+    U+3040-309F,     /* 平假名 */
+    U+30A0-30FF,     /* 片假名 */
+}
+
+/* 正文英文：VerondSon‑Regular，限定拉丁字母区间 */
+@font-face {  
+  font-family: 'posts-font-en';  
+  src: url('/fonts/SuperSimpleBrushScript-1Wy2.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;
+  font-display: swap;
+  unicode-range: 
+      U+0000-002F,
+      U+0030-0039,
+      U+003A-007F,
+      U+0080-00FF,
+      U+0100-017F,
+      U+0180-024F;
+}
+
+@font-face {  
+  font-family: 'code-font';  
+  src: url('/fonts/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'ChineseFont';
+    src: url('/fonts/ChillKai.woff') format('woff');
+    font-display: swap;
+    unicode-range: 
+    U+4E00-9FFF, U+3040-309F, U+30A0-30FF, U+FF00-FFEF;
+}
+
+
+
+/* ========== 3. Reveal全局字体 ========== */
+.reveal {
+  font-family: "posts-font-en", "posts-font", system-ui, "Noto Sans SC", sans-serif !important;
+  font-size: 32px;
+}
+.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6 {
+  font-family: "title-font-en", "title-font", system-ui, "Noto Sans SC", sans-serif !important;
+}
+
+/* ========== 代码块全部强制 code‑font ========== */
+.reveal pre {
+  margin: 0.2em 0 !important;
+  padding: 0 !important;
+}
+
+.reveal pre code {
+  padding: 0.4em 0.6em !important;
+  line-height: 1.2 !important;
+  font-size: 1.4em !important;
+  font-family: "code-font", monospace !important;
+}
+
+.reveal .hljs-ln {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.reveal .hljs-ln tr {
+  height: 1.2em !important;
+}
+.reveal .hljs-ln td {
+  padding: 0 0.4em !important;
+  height: 1.2em !important;
+  line-height: 1.2em !important;
+  font-size: 0.8em !important;
+  font-family: "code-font", monospace !important;
+}
+
+.reveal .hljs-ln td span {
+  font-size: 0.8em !important;
+  font-family: "code-font", monospace !important;
+}
+
+.reveal .hljs-ln pre {
+  margin: 0 !important;
+}
+
+.reveal h2 {
+  margin-bottom: 0.3em !important;
+}
+
+.reveal .slides section {
+  padding: 0.4em 0.8em !important;
+}
+
+
+</style>
+
+{{/* print pdf 打印样式 */}}
+<script>
+var link = document.createElement('link');
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match(/print-pdf/gi)
+  ? '{{ "renderjs/revealjs/dist/css/print/pdf.css" | relURL }}'
+  : '{{ "renderjs/revealjs/dist/css/print/paper.css" | relURL }}';
+document.getElementsByTagName('head')[0].appendChild(link);
+<\/scr`+`ipt>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+{{ .Inner }}
+</div>
+</div>
+
+<script src="{{ "renderjs/revealjs/dist/reveal.js" | relURL }}"><\/scr`+`ipt>
+<script src="{{ "renderjs/revealjs/dist/plugin/zoom.js" | relURL }}"><\/scr`+`ipt>
+<script src="{{ "renderjs/revealjs/dist/plugin/notes.js" | relURL }}"><\/scr`+`ipt>
+<script src="{{ "renderjs/revealjs/dist/plugin/search.js" | relURL }}"><\/scr`+`ipt>
+<script src="{{ "renderjs/revealjs/dist/plugin/markdown.js" | relURL }}"><\/scr`+`ipt>
+<script src="{{ "renderjs/revealjs/dist/plugin/highlight.js" | relURL }}"><\/scr`+`ipt>
+<script src="{{ "renderjs/revealjs/dist/plugin/math.js" | relURL }}"><\/scr`+`ipt>
+
+<script>
+Reveal.initialize({
+	controls: true,
+	progress: true,
+	center: true,
+	hash: true,
+	autoAnimate: true,
+	autoAnimateDuration: 0.8,
+	autoAnimateEasing: 'ease-out',
+	math: {
+		katex: {
+			displayMode: true
+		}
+	},
+	plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
+});
+<\/scr`+`ipt>
+</body>
+</html>`;
+
+  function writeReveal(){
+    const doc = iframe.contentDocument || iframe.contentWindow.document;
+    doc.open();
+    doc.write(fullPage);
+    doc.close();
+  }
+
+  if(iframe.contentDocument && iframe.contentDocument.readyState === "complete"){
+    writeReveal();
+  }else{
+    iframe.onload = writeReveal;
+  }
+})();
+
+</script>
+
+
+
+
+
+
+<!-- {{- $height := .Get "height" | default "34em" -}} -->
+<!-- {{- $theme := .Get "theme" | default "yuoek" -}} -->
+<!-- <style> -->
+<!-- .reveal-embed-wrap { margin:1em 0; } -->
+<!-- .reveal-embed-wrap iframe { -->
+<!--   width:100%; -->
+<!--   height:{{ $height }}; -->
+<!--   border:0; -->
+<!-- } -->
+<!-- </style> -->
+<!---->
+<!-- <div class="reveal-embed-wrap"> -->
+<!-- <iframe id="reveal-{{ .Ordinal }}"></iframe> -->
+<!-- </div> -->
+<!---->
+<!-- <script> -->
+<!-- (function(){ -->
+<!--   const iframe = document.getElementById("reveal-{{ .Ordinal }}"); -->
+<!--   const fullPage = `<!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!-- <head> -->
+<!-- <meta charset="utf-8" /> -->
+<!-- <title>reveal.js</title> -->
+<!-- <meta name="description" content="A framework for easily creating beautiful presentations using HTML" /> -->
+<!-- <meta name="author" content="Hakim El Hattab" /> -->
+<!-- <meta name="mobile-web-app-capable" content="yes" /> -->
+<!-- <meta name="mobile-web-app-status-bar-style" content="black-translucent" /> -->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+<!---->
+<!-- <link rel="stylesheet" href="{{ "renderjs/revealjs/dist/reset.css" | relURL }}"> -->
+<!-- <link rel="stylesheet" href="{{ "renderjs/revealjs/dist/reveal.css" | relURL }}"> -->
+<!-- <link rel="stylesheet" href="{{ printf "renderjs/revealjs/dist/theme/%s.css" $theme | relURL }}" id="theme"> -->
+<!-- <link rel="stylesheet" href="{{ "renderjs/revealjs/dist/plugin/highlight/yuoek.css" | relURL }}"> -->
+<!---->
+<!-- {{/* print pdf 打印样式 */}} -->
+<!-- <script> -->
+<!-- var link = document.createElement('link'); -->
+<!-- link.rel = 'stylesheet'; -->
+<!-- link.type = 'text/css'; -->
+<!-- link.href = window.location.search.match(/print-pdf/gi) -->
+<!--   ? '{{ "renderjs/revealjs/dist/css/print/pdf.css" | relURL }}' -->
+<!--   : '{{ "renderjs/revealjs/dist/css/print/paper.css" | relURL }}'; -->
+<!-- document.getElementsByTagName('head')[0].appendChild(link); -->
+<!-- <\/scr`+`ipt> -->
+<!-- </head> -->
+<!-- <body> -->
+<!-- <div class="reveal"> -->
+<!-- <div class="slides"> -->
+<!-- {{ .Inner }} -->
+<!-- </div> -->
+<!-- </div> -->
+<!---->
+<!-- <script src="{{ "renderjs/revealjs/dist/reveal.js" | relURL }}"><\/scr`+`ipt> -->
+<!-- <script src="{{ "renderjs/revealjs/dist/plugin/zoom.js" | relURL }}"><\/scr`+`ipt> -->
+<!-- <script src="{{ "renderjs/revealjs/dist/plugin/notes.js" | relURL }}"><\/scr`+`ipt> -->
+<!-- <script src="{{ "renderjs/revealjs/dist/plugin/search.js" | relURL }}"><\/scr`+`ipt> -->
+<!-- <script src="{{ "renderjs/revealjs/dist/plugin/markdown.js" | relURL }}"><\/scr`+`ipt> -->
+<!-- <script src="{{ "renderjs/revealjs/dist/plugin/highlight.js" | relURL }}"><\/scr`+`ipt> -->
+<!---->
+<!-- <script> -->
+<!-- Reveal.initialize({ -->
+<!-- 	controls: true, -->
+<!-- 	progress: true, -->
+<!-- 	center: true, -->
+<!-- 	hash: true, -->
+<!-- 	plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ] -->
+<!-- }); -->
+<!-- <\/scr`+`ipt> -->
+<!-- </body> -->
+<!-- </html>`; -->
+<!---->
+<!--   function writeReveal(){ -->
+<!--     const doc = iframe.contentDocument || iframe.contentWindow.document; -->
+<!--     doc.open(); -->
+<!--     doc.write(fullPage); -->
+<!--     doc.close(); -->
+<!--   } -->
+<!---->
+<!--   if(iframe.contentDocument && iframe.contentDocument.readyState === "complete"){ -->
+<!--     writeReveal(); -->
+<!--   }else{ -->
+<!--     iframe.onload = writeReveal; -->
+<!--   } -->
+<!-- })(); -->
+<!---->
+<!-- </script> -->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->

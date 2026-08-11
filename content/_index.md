@@ -14,15 +14,15 @@ date: 2025-08-23
 <font color="#7cc0e7"> 遇你见爱吧! </font>
 
 <meting-js
-    name="Photograph"
-    artist="Cody Fry"
-    url="https://images.yuoek.icu/file/music/1785934177519_Photograph_-_Cody_Fry.mp3"
-    cover="https://images.yuoek.icu/file/music/1785934174995_Photograph_-_Cody_Fry.jpg"
-    lrc="https://images.yuoek.icu/file/music/1785934171247_Photograph_-_Cody_Fry.lrc" 
+    name="This Right Here"
+    artist="Markéta Irglová"
+    url="https://images.yuoek.icu/file/music/1785934200228_This_Right_Here_-_Markéta_Irglová.mp3"
+    cover="https://images.yuoek.icu/file/music/1785934195532_This_Right_Here_-_Markéta_Irglová.jpg"
+    lrc="https://images.yuoek.icu/file/music/1785934197282_This_Right_Here_-_Markéta_Irglová.lrc" 
     autoplay="false"
     loop="false"
-    mini="true"
     fixed="true"
+    mini="true"
     mutex="true">
 </meting-js>
 
