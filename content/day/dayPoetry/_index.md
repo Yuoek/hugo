@@ -1,5 +1,5 @@
 ---
-title: "Day Poetry"
+title: "诗歌美文"
 date: 2025-08-26T22:54:11+08:00
 type: "posts"
 ---
