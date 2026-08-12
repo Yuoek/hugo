@@ -13,7 +13,7 @@
 body {
   width: 100%;
   margin: 0 auto;
-  font-family: "PingFang SC", "Microsoft Yahei UI", "Microsoft Yahei", "Helvetica", sans-serif;
+  font-family: "post-font", "post-font-en", sans-serif;
 }
 
 a {
@@ -33,7 +33,7 @@ kbd,
 pre,
 samp,
 tt {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "post-font-en", Courier, monospace;
 }
 
 :focus,
@@ -277,21 +277,53 @@ tt {
   user-select: none;
 }
 
+/* 正文中文：方正仿宋简体，限定只作用CJK字符 */
+@font-face {  
+  font-family: 'post-font';  
+  src: url('/fonts/ChillKai.woff') format('woff');  
+  font-weight: normal;  
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+4E00-9FFF,     /* 汉字 */
+    U+3040-309F,     /* 平假名 */
+    U+30A0-30FF,     /* 片假名 */
+    U+FF00-FFEF;     /* 全角符号（全角标点、全角数字） */
+}
+
+/* 正文英文：VerondSon‑Regular，限定拉丁字母区间 */
+@font-face {  
+  font-family: 'post-font-en';  
+  src: url('/fonts/Catalina.ttf') format('truetype');  
+  font-weight: normal;  
+  font-style: normal;
+  font-display: swap;
+  unicode-range: 
+      U+0000-002F,
+      U+0030-0039,
+      U+003A-007F,
+      U+0080-00FF,
+      U+0100-017F,
+      U+0180-024F;
+}
+
+
 @font-face {
   font-family: "Impact";
-  src: url("./font/ImpactPureNumber.ttf");
+  src: url("/fonts/方正仿宋简体.ttf");
 }
+
 @font-face {
   font-family: "DS Digital";
-  src: url("./font/DSDigital.ttf");
+  src: url("/fonts/VerondSon-Regular.ttf");
 }
 @font-face {
   font-family: "Galvji";
-  src: url("./font/Galvji.ttf");
+  src: url("/fonts/方正仿宋简体.ttf");
 }
 @font-face {
   font-family: "JetBrainsMonoOnlyCharacter";
-  src: url("./font/JetBrainsMonoOnlyCharacter.ttf");
+  src: url("/fonts/JetBrainsMonoNerdFont-Regular.ttf");
 }
 .galvji, .table, .binding-key kbd {
   font-family: "Galvji", sans-serif !important;
@@ -1496,6 +1528,8 @@ body {
 }
 
 .template-container {
+
+  font-family: "post-font-en", "post-font", sans-serif !important;
   color: #333;
   padding: 10px 15px;
   border: 1px solid #dddddd;
@@ -1559,7 +1593,7 @@ body {
 .text.english {
   line-height: 1.3;
   font-size: 1.8rem;
-  font-family: "";
+  font-family: "post-font-en";
   letter-spacing: 0;
 }
 .text .correct {

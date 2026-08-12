@@ -183,3 +183,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 [advertisement]
   # adsense = ""
 
+
+[params]
+# favicon放在assets/favicon/favicon.png
+favicon = "favicon.ico"
