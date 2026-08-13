@@ -129,7 +129,7 @@ define([
          name: 'Yuoek',
          value: 'article6',
          type: ArticleType.article,
-         content: "遭gmap 瓦gny"
+         content: "遭gmap 瓦gny 邃pwup 栈sgt"
       },
       customize: {
          name: '自定义发文',
