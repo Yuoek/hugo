@@ -1,5 +1,5 @@
 ---
-title: 0014-最长公共前缀
+title: 0014 最长公共前缀
 date: 2026-08-13
 weight: 14
 summay: 纵向扫描

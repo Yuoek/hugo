@@ -1,5 +1,5 @@
 ---
-title: 0025 K个一级翻转链表
+title: 0025 K个一组翻转链表
 date: 2026-08-13
 weight: 25
 summary: lc
