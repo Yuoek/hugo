@@ -1,0 +1,50 @@
+---
+title: 0068 文本左右对齐
+date: 2026-08-16
+weight: 68
+summary: lc
+---
+
+## Solution
+
+```python
+from typing import List
+
+class Solution:
+    def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
+        ans = []
+        i, n = 0, len(words)
+        while i < n:
+            t = []
+            cnt = len(words[i])
+            t.append(words[i])
+            i += 1
+            while i < n and cnt + 1 + len(words[i]) <= maxWidth:
+                cnt += 1 + len(words[i])
+                t.append(words[i])
+                i += 1
+            if i == n or len(t) == 1:
+                left = ' '.join(t)
+                right = ' ' * (maxWidth - len(left))
+                ans.append(left + right)
+                continue
+            space_width = maxWidth - (cnt - len(t) + 1)
+            w, m = divmod(space_width, len(t) - 1)
+            row = []
+            for j, s in enumerate(t[:-1]):
+                row.append(s)
+                row.append(' ' * (w + (1 if j < m else 0)))
+            row.append(t[-1])
+            ans.append(''.join(row))
+        return ans
+
+if __name__ == "__main__":
+    sol = Solution()
+    res1 = sol.fullJustify(["This","is","an","example","of","text","justification."], 16)
+    for line in res1:
+        print(repr(line))
+    res2 = sol.fullJustify(["What","must","be","acknowledgment","shall","be"], 16)
+    for line in res2:
+        print(repr(line))
+
+```
