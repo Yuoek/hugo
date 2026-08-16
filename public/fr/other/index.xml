@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on Dear Yuoek:</title>
+    <link>http://localhost:8081/fr/other/</link>
+    <description>Recent content in Others on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <lastBuildDate>Fri, 29 Aug 2025 23:32:40 +0800</lastBuildDate><atom:link href="http://localhost:8081/fr/other/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>All or Nothing</title>
+      <link>http://localhost:8081/fr/other/test/new-life/</link>
+      <pubDate>Fri, 29 Aug 2025 23:32:40 +0800</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/fr/other/test/new-life/</guid>
+      <description>The letters from Yuoek to Sophie | 📬</description>
+      
+    </item>
+    
+  </channel>
+</rss>

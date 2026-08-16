@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>测试 on Dear Yuoek:</title>
+    <link>http://localhost:8081/other/test/</link>
+    <description>Recent content in 测试 on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <lastBuildDate>Sun, 18 Jan 2026 15:10:37 +0800</lastBuildDate><atom:link href="http://localhost:8081/other/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>0006_Z字形变换</title>
+      <link>http://localhost:8081/other/test/0006/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/other/test/0006/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>New LIFE</title>
+      <link>http://localhost:8081/other/test/new-life/</link>
+      <pubDate>Sun, 18 Jan 2026 15:10:37 +0800</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/other/test/new-life/</guid>
+      <description>给 Sophie 的信 | 📬</description>
+      
+    </item>
+    
+    <item>
+      <title>github 链接</title>
+      <link>http://localhost:8081/other/test/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/other/test/github/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
