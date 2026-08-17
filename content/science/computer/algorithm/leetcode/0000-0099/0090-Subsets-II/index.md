@@ -1,0 +1,37 @@
+---
+title: 0090 子集 II
+date: 2026-08-17
+weight: 90
+summary: 二叉 回溯
+---
+
+## Solution
+
+```python
+from typing import List
+
+class Solution:
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        def dfs(i: int):
+            if i == len(nums):
+                ans.append(t[:])
+                return
+            t.append(nums[i])
+            dfs(i + 1)
+            x = t.pop()
+            while i + 1 < len(nums) and nums[i + 1] == x:
+                i += 1
+            dfs(i + 1)
+
+        nums.sort()
+        ans = []
+        t = []
+        dfs(0)
+        return ans
+
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.subsetsWithDup([1,2,2]))
+    # [[1,2,2],[1,2],[1],[2,2],[2],[]]
+
+```
