@@ -9,13 +9,19 @@ date: 2026-08-22
 
 [npm 安装链接：https://www.npmjs.com/package/@mmmbuto/codex-cli-termux](https://www.npmjs.com/package/@mmmbuto/codex-cli-termux) 
 
+termux
 ```bash
 pkg update && pkg upgrade -y
 pkg install nodejs-lts -y
 npm install -g @mmmbuto/codex-cli-termux@latest
 codex --version
 codex 
+```
 
+ubuntu
+```bash
+npm install -g @openai/codex
+codex
 ```
 
 ### DeepSeek 注册获取 Api
@@ -33,3 +39,15 @@ codex
 ```bash
 bash <(curl -fsSL https://cdn.deepseek.com/api-docs/codex-deepseek-setup.sh)
 ```
+
+### Skill
+
+官方 skill 示例
+```bash
+git clone https://github.com/openai/skills ~/.codex/skills/openai‑skills
+```
+
+打开 codex 使用 /skill 查看
+
+
+<video src="/data/data/com.termux/files/home/Yuoek/db/screenShots/Screenrecording_20260825_200021_com.termux.mp4" controls></video>

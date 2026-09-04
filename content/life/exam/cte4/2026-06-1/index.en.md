@@ -60,6 +60,7 @@ D) He had dined out at a famous five-star restaurant.
 
 2. A) Teach his son a lesson. C) Ask his neighbors for help.
 B) Change his password. D) Buy a bigger refrigerator.
+
 #### Questions 3 and 4 are based on the news report you have just heard.
 
 3. A) They examined how visitors affected animal behaviour in zoos.

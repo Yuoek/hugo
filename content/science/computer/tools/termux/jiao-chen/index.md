@@ -50,7 +50,7 @@ termux-change-repo
 ### 安装常用软件
 
 ```bash
-pkg install git curl wget zsh vim neovim python clang
+pkg install git curl wget zsh vim neovim python clang lldb codelldb
 ```
 
 **注：** termux 可以使用 pkg 或 apt 管理器进行安装软件
@@ -188,7 +188,7 @@ pkg install neovim
 
 安装 NvChad 配置
 ```bash
-git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+git clone https://github.com/yuoek/starter ~/.config/nvim && nvim
 ```
 
 
