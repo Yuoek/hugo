@@ -1,0 +1,48 @@
+---
+title: 0120.Triangle
+date: 2026-09-03
+---
+
+## Solution
+
+```python
+from typing import List
+
+class Solution:
+    def minimumTotal(self, triangle: List[List[int]]) -> int:
+        n = len(triangle)
+        f = [[0] * (n + 1) for _ in range(n + 1)]
+        for i in range(n - 1, -1, -1):
+            for j in range(i + 1):
+                f[i][j] = min(f[i + 1][j], f[i + 1][j + 1]) + triangle[i][j]
+        return f[0][0]
+
+
+# ----------------本地测试----------------
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]])) # 11
+    print(sol.minimumTotal([[-10]])) # -10
+```
+
+## Solution 2
+
+```python
+from typing import List
+
+class Solution:
+    def minimumTotal(self, triangle: List[List[int]]) -> int:
+        n = len(triangle)
+        f = [0] * (n + 1)
+        for i in range(n - 1, -1, -1):
+            for j in range(i + 1):
+                f[j] = min(f[j], f[j + 1]) + triangle[i][j]
+        return f[0]
+
+
+# ----------------本地测试----------------
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]])) # 11
+    print(sol.minimumTotal([[-10]])) # -10
+```

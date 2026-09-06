@@ -1,0 +1,32 @@
+---
+title: 0186.Reverse Words in a String II
+date: 2026-09-06
+---
+
+## Solution
+
+```python
+from typing import List
+
+class Solution:
+    def reverseWords(self, s: List[str]) -> None:
+        def reverse(i: int, j: int):
+            while i < j:
+                s[i], s[j] = s[j], s[i]
+                i, j = i + 1, j - 1
+
+        i, n = 0, len(s)
+        for j, c in enumerate(s):
+            if c == " ":
+                reverse(i, j - 1)
+                i = j + 1
+            elif j == n - 1:
+                reverse(i, j)
+        reverse(0, n - 1)
+
+if __name__ == "__main__":
+    arr = ["t","h","e"," ","s","k","y"," ","i","s"," ","b","l","u","e"]
+    sol = Solution()
+    sol.reverseWords(arr)
+    print(arr)
+```

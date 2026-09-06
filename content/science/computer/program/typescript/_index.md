@@ -1,0 +1,4 @@
+---
+title: typscript
+date: 2026-09-06
+---

@@ -9,6 +9,7 @@ series_order: 2
 cp3.14 安装报错，使用uv 创建 python 其他版本
 ```bash
 uv python list
+uv python install 3.12
 uv python pin 3.12
 ```
 
@@ -19,9 +20,9 @@ uv run main.py
 uv pip install tensorflow
 ```
 
-uv 换源
+临时使用源安装
 ```bash
-uv pip install xxx --index-url https://pypi.tuna.tsinghua.edu.cn/simple
+uv pip install tensorfow --index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 安装成功后，测试
