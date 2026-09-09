@@ -1,0 +1,212 @@
+---
+title: 目录
+date: 2026-09-06
+description: "PHP 教程"
+categories: ["Program", "PHP"]
+series: ["PHP 学习记录"]
+series_order: 1
+---
+
+- [ ] PHP - Home
+- [ ] PHP - Roadmap
+- [ ] PHP - Introduction
+- [ ] PHP - Installation
+- [ ] PHP - History
+- [ ] PHP - Features
+- [ ] PHP - Syntax
+- [ ] PHP - Hello World
+- [ ] PHP - Comments
+- [ ] PHP - Variables
+- [ ] PHP - Echo/Print
+- [ ] PHP - var_dump
+- [ ] PHP - $ and $$ Variables
+- [ ] PHP - Constants
+- [ ] PHP - Magic Constants
+- [ ] PHP - Data Types
+- [ ] PHP - Type Casting
+- [ ] PHP - Type Juggling
+- [ ] PHP - Strings
+- [ ] PHP - Boolean
+- [ ] PHP - Integers
+- [ ] PHP - Files & I/O
+- [ ] PHP - Maths Functions
+- [ ] PHP - Heredoc & Nowdoc
+- [ ] PHP - Compound Types
+- [ ] PHP - File Include
+- [ ] PHP - Date & Time
+- [ ] PHP - Scalar Type Declarations
+- [ ] PHP - Return Type Declarations
+- [ ] PHP - Operators
+- [ ] PHP - Arithmetic Operators
+- [ ] PHP - Comparison Operators
+- [ ] PHP - Logical Operators
+- [ ] PHP - Assignment Operators
+- [ ] PHP - String Operators
+- [ ] PHP - Array Operators
+- [ ] PHP - Conditional Operators
+- [ ] PHP - Spread Operator
+- [ ] PHP - Null Coalescing Operator
+- [ ] PHP - Spaceship Operator
+- [ ] PHP Control Statements
+- [ ] PHP - Decision Making
+- [ ] PHP - If…Else Statement
+- [ ] PHP - Switch Statement
+- [ ] PHP - Loop Types
+- [ ] PHP - For Loop
+- [ ] PHP - Foreach Loop
+- [ ] PHP - While Loop
+- [ ] PHP - Do…While Loop
+- [ ] PHP - Break Statement
+- [ ] PHP - Continue Statement
+- [ ] PHP Arrays
+- [ ] PHP - Arrays
+- [ ] PHP - Indexed Array
+- [ ] PHP - Associative Array
+- [ ] PHP - Multidimensional Array
+- [ ] PHP - Array Functions
+- [ ] PHP - Constant Arrays
+- [ ] PHP Functions
+- [ ] PHP - Functions
+- [ ] PHP - Function Parameters
+- [ ] PHP - Call by value
+- [ ] PHP - Call by Reference
+- [ ] PHP - Default Arguments
+- [ ] PHP - Named Arguments
+- [ ] PHP - Variable Arguments
+- [ ] PHP - Returning Values
+- [ ] PHP - Passing Functions
+- [ ] PHP - Recursive Functions
+- [ ] PHP - Type Hints
+- [ ] PHP - Variable Scope
+- [ ] PHP - Strict Typing
+- [ ] PHP - Anonymous Functions
+- [ ] PHP - Arrow Functions
+- [ ] PHP - Variable Functions
+- [ ] PHP - Local Variables
+- [ ] PHP - Global Variables
+- [ ] PHP Superglobals
+- [ ] PHP - Superglobals
+- [ ] PHP - $GLOBALS
+- [ ] PHP - $_SERVER
+- [ ] PHP - $_REQUEST
+- [ ] PHP - $_POST
+- [ ] PHP - $_GET
+- [ ] PHP - $_FILES
+- [ ] PHP - $_ENV
+- [ ] PHP - $_COOKIE
+- [ ] PHP - $_SESSION
+- [ ] PHP File Handling
+- [ ] PHP - File Handling
+- [ ] PHP - Open File
+- [ ] PHP - Read File
+- [ ] PHP - Write File
+- [ ] PHP - File Existence
+- [ ] PHP - Download File
+- [ ] PHP - Copy File
+- [ ] PHP - Append File
+- [ ] PHP - Delete File
+- [ ] PHP - Handle CSV File
+- [ ] PHP - File Permissions
+- [ ] PHP - Create Directory
+- [ ] PHP - Listing Files
+- [ ] Object Oriented PHP
+- [ ] PHP - Object Oriented Programming
+- [ ] PHP - Classes and Objects
+- [ ] PHP - Constructor and Destructor
+- [ ] PHP - Access Modifiers
+- [ ] PHP - Inheritance
+- [ ] PHP - Class Constants
+- [ ] PHP - Abstract Classes
+- [ ] PHP - Interfaces
+- [ ] PHP - Traits
+- [ ] PHP - Static Methods
+- [ ] PHP - Static Properties
+- [ ] PHP - Namespaces
+- [ ] PHP - Object Iteration
+- [ ] PHP - Encapsulation
+- [ ] PHP - Final Keyword
+- [ ] PHP - Overloading
+- [ ] PHP - Cloning Objects
+- [ ] PHP - Anonymous Classes
+- [ ] PHP Web Development
+- [ ] PHP - Web Concepts
+- [ ] PHP - Form Handling
+- [ ] PHP - Form Validation
+- [ ] PHP - Form Email/URL
+- [ ] PHP - Complete Form
+- [ ] PHP - File Inclusion
+- [ ] PHP - GET & POST
+- [ ] PHP - File Uploading
+- [ ] PHP - Cookies
+- [ ] PHP - Sessions
+- [ ] PHP - Session Options
+- [ ] PHP - Sending Emails
+- [ ] PHP - Sanitize Input
+- [ ] PHP - Post-Redirect-Get (PRG)
+- [ ] PHP - Flash Messages
+- [ ] PHP AJAX
+- [ ] PHP - AJAX Introduction
+- [ ] PHP - AJAX Search
+- [ ] PHP - AJAX XML Parser
+- [ ] PHP - AJAX Auto Complete Search
+- [ ] PHP - AJAX RSS Feed Example
+- [ ] PHP XML
+- [ ] PHP - XML Introduction
+- [ ] PHP - Simple XML Parser
+- [ ] PHP - SAX Parser Example
+- [ ] PHP - DOM Parser Example
+- [ ] PHP Login Example
+- [ ] PHP - Login Example
+- [ ] PHP - Facebook Login
+- [ ] PHP - Paypal Integration
+- [ ] PHP - MySQL Login
+- [ ] PHP Advanced
+- [ ] PHP - MySQL
+- [ ] PHP.INI File Configuration
+- [ ] PHP - Array Destructuring
+- [ ] PHP - Coding Standard
+- [ ] PHP - Regular Expression
+- [ ] PHP - Error Handling
+- [ ] PHP - Try…Catch
+- [ ] PHP - Bugs Debugging
+- [ ] PHP - For C Developers
+- [ ] PHP - For PERL Developers
+- [ ] PHP - Frameworks
+- [ ] PHP - Core PHP vs Frame Works
+- [ ] PHP - Design Patterns
+- [ ] PHP - Filters
+- [ ] PHP - JSON
+- [ ] PHP - Exceptions
+- [ ] PHP - Special Types
+- [ ] PHP - Hashing
+- [ ] PHP - Encryption
+- [ ] PHP - is_null() Function
+- [ ] PHP - System Calls
+- [ ] PHP - HTTP Authentication
+- [ ] PHP - Swapping Variables
+- [ ] PHP - Closure::call()
+- [ ] PHP - Filtered unserialize()
+- [ ] PHP - IntlChar
+- [ ] PHP - CSPRNG
+- [ ] PHP - Expectations
+- [ ] PHP - Use Statement
+- [ ] PHP - Integer Division
+- [ ] PHP - Deprecated Features
+- [ ] PHP - Removed Extensions & SAPIs
+- [ ] PHP - PEAR
+- [ ] PHP - CSRF
+- [ ] PHP - FastCGI Process
+- [ ] PHP - PDO Extension
+- [ ] PHP - Built-In Functions
+- [ ] PHP Useful Resources
+- [ ] PHP - Cheatsheet
+- [ ] PHP - Questions & Answers
+- [ ] PHP - Quick Guide
+- [ ] PHP - Useful Resources
+- [ ] PHP - Discussion
+- [ ] PHP - Online Compiler
+- [ ] Selected Reading
+- [ ] UPSC IAS Exams Notes
+- [ ] Developer's Best Practices
+- [ ] Questions and Answers
+- [ ] Online Resume Builder
