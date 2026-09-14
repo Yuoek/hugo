@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Array on Dear Yuoek:</title>
+    <link>http://localhost:8081/tags/array/</link>
+    <description>Recent content in Array on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <atom:link href="http://localhost:8081/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0200.number-of-islands/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0200.number-of-islands/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0204.count-primes/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0204.count-primes/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0209.minimum-size-subarray-sum/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0209.minimum-size-subarray-sum/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0212.word-search-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0212.word-search-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0213.house-robber-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0213.house-robber-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0215.kth-largest-element-in-an-array/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0215.kth-largest-element-in-an-array/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0216.combination-sum-iii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0216.combination-sum-iii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0217.contains-duplicate/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0217.contains-duplicate/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0218.the-skyline-problem/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0218.the-skyline-problem/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0219.contains-duplicate-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0219.contains-duplicate-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0220.contains-duplicate-iii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0220.contains-duplicate-iii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0221.maximal-square/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0221.maximal-square/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0228.summary-ranges/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0228.summary-ranges/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0229.majority-element-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0229.majority-element-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0238.product-of-array-except-self/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0238.product-of-array-except-self/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0239.sliding-window-maximum/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0239.sliding-window-maximum/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0240.search-a-2d-matrix-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0240.search-a-2d-matrix-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0243.shortest-word-distance/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0243.shortest-word-distance/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0244.shortest-word-distance-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0244.shortest-word-distance-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0245.shortest-word-distance-iii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0245.shortest-word-distance-iii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0247.strobogrammatic-number-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0247.strobogrammatic-number-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0248.strobogrammatic-number-iii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0248.strobogrammatic-number-iii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0249.group-shifted-strings/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0249.group-shifted-strings/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0251.flatten-2d-vector/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0251.flatten-2d-vector/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0252.meeting-rooms/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0252.meeting-rooms/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0253.meeting-rooms-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0253.meeting-rooms-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0255.verify-preorder-sequence-in-binary-search-tree/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0255.verify-preorder-sequence-in-binary-search-tree/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0256.paint-house/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0256.paint-house/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0259.3sum-smaller/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0259.3sum-smaller/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0260.single-number-iii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0260.single-number-iii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0265.paint-house-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0265.paint-house-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0268.missing-number/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0268.missing-number/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0269.alien-dictionary/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0269.alien-dictionary/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0271.encode-and-decode-strings/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0271.encode-and-decode-strings/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0274.h-index/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0274.h-index/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0275.h-index-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0275.h-index-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0280.wiggle-sort/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0280.wiggle-sort/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0281.zigzag-iterator/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0281.zigzag-iterator/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0283.move-zeroes/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0283.move-zeroes/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0284.peeking-iterator/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0284.peeking-iterator/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0286.walls-and-gates/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0286.walls-and-gates/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0287.find-the-duplicate-number/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0287.find-the-duplicate-number/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0288.unique-word-abbreviation/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0288.unique-word-abbreviation/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0289.game-of-life/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0289.game-of-life/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0296.best-meeting-point/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0296.best-meeting-point/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

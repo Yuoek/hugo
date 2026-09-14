@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>导演学习札记 on Dear Yuoek:</title>
+    <link>http://localhost:8081/series/%E5%AF%BC%E6%BC%94%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/</link>
+    <description>Recent content in 导演学习札记 on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8081/series/%E5%AF%BC%E6%BC%94%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>雅克・塔蒂</title>
+      <link>http://localhost:8081/art/film/director/jacques-tati/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/art/film/director/jacques-tati/</guid>
+      <description>隐藏电影</description>
+      
+    </item>
+    
+    <item>
+      <title>罗伯特・布列松</title>
+      <link>http://localhost:8081/art/film/director/robert-bresson/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/art/film/director/robert-bresson/</guid>
+      <description>电影书写</description>
+      
+    </item>
+    
+    <item>
+      <title>让-吕克・戈达尔</title>
+      <link>http://localhost:8081/art/film/director/jean-luc-godard/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/art/film/director/jean-luc-godard/</guid>
+      <description>随心所欲</description>
+      
+    </item>
+    
+    <item>
+      <title>安德烈・塔可夫斯基</title>
+      <link>http://localhost:8081/art/film/director/andrei-tarkovsky/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/art/film/director/andrei-tarkovsky/</guid>
+      <description>雕刻时光</description>
+      
+    </item>
+    
+    <item>
+      <title>英格玛・伯格曼</title>
+      <link>http://localhost:8081/art/film/director/ingmar-bergman/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/art/film/director/ingmar-bergman/</guid>
+      <description>犹在镜中</description>
+      
+    </item>
+    
+    <item>
+      <title>埃里克・侯麦</title>
+      <link>http://localhost:8081/art/film/director/erick-rohmer/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/art/film/director/erick-rohmer/</guid>
+      <description>微微绿光</description>
+      
+    </item>
+    
+    <item>
+      <title>弗朗西斯・特吕弗</title>
+      <link>http://localhost:8081/art/film/director/francois-truffaut/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/art/film/director/francois-truffaut/</guid>
+      <description>茫然寻找</description>
+      
+    </item>
+    
+  </channel>
+</rss>

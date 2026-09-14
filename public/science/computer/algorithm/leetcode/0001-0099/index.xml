@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0001-0099 on Dear Yuoek:</title>
+    <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/</link>
+    <description>Recent content in 0001-0099 on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>0007 整数反转</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0007-reverse-integer/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0007-reverse-integer/</guid>
+      <description>思想</description>
+      
+    </item>
+    
+    <item>
+      <title>0008 字符串转整数</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0008-string-to-integer-atoi/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0008-string-to-integer-atoi/</guid>
+      <description>思想</description>
+      
+    </item>
+    
+    <item>
+      <title>0009 回文数</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0009-palindrome-number/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0009-palindrome-number/</guid>
+      <description>模</description>
+      
+    </item>
+    
+    <item>
+      <title>0010 正则表达式</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0010-regular-expression-matching/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0010-regular-expression-matching/</guid>
+      <description>DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0011 盛最多水的容器</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0011-container-with-most-water/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0011-container-with-most-water/</guid>
+      <description>双指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0012 整数转罗马数字</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0012-integer-to-roman/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0012-integer-to-roman/</guid>
+      <description>贪心</description>
+      
+    </item>
+    
+    <item>
+      <title>0013 罗马数字转整数</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0013-roman-to-integer/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0013-roman-to-integer/</guid>
+      <description>罗马数字规则</description>
+      
+    </item>
+    
+    <item>
+      <title>0014 最长公共前缀</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0014-longest-common-prefix/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0014-longest-common-prefix/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>0015 三数之和</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0015-3sum/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0015-3sum/</guid>
+      <description>排序 双指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0016 最接近的三数之和</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0016-3sum-closest/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0016-3sum-closest/</guid>
+      <description>排序 双指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0017 电话号码字母组合</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0017-letter-combinations-of-a-phone-number/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0017-letter-combinations-of-a-phone-number/</guid>
+      <description>DFS回溯</description>
+      
+    </item>
+    
+    <item>
+      <title>0018 四数之和</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0018-4sum/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0018-4sum/</guid>
+      <description>排序 双层固定 双指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0019 删除链表倒数第N个结点</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0019-remove-nth-node-from-end-of-list/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0019-remove-nth-node-from-end-of-list/</guid>
+      <description>哑节点dummy 快慢指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0020 有效的括号</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0020-valid-parentheses/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0020-valid-parentheses/</guid>
+      <description>栈</description>
+      
+    </item>
+    
+    <item>
+      <title>0021 合并两个有序链表</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0021-merge-two-sorted-lists/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0021-merge-two-sorted-lists/</guid>
+      <description>dummy虚拟节点 双指针迭代</description>
+      
+    </item>
+    
+    <item>
+      <title>0022 括号生成</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0022-generate-parentheses/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0022-generate-parentheses/</guid>
+      <description>DFS回溯</description>
+      
+    </item>
+    
+    <item>
+      <title>0023 合并K个升序链表</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0023-merge-k-sorted-lists/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0023-merge-k-sorted-lists/</guid>
+      <description>最小堆（优先队列）</description>
+      
+    </item>
+    
+    <item>
+      <title>0024 两两交换链表中的节点</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0024-swap-nodes-in-pairs/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0024-swap-nodes-in-pairs/</guid>
+      <description>递归</description>
+      
+    </item>
+    
+    <item>
+      <title>0025 K个一组翻转链表</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0025-reverse-nodes-in-k-group/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0025-reverse-nodes-in-k-group/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0026 删除有序数组中的重复项</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0026-remove-duplicates-from-sorted-array/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0026-remove-duplicates-from-sorted-array/</guid>
+      <description>快慢指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0027 移除元素</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0027-remove-element/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0027-remove-element/</guid>
+      <description>双指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0028 找出字符串中第一个匹配项的下标</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0028-find-the-index-of-the-first-occurrence-in-a-string/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0028-find-the-index-of-the-first-occurrence-in-a-string/</guid>
+      <description>滑动窗口 暴力</description>
+      
+    </item>
+    
+    <item>
+      <title>0029 两数相除</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0029-divide-two-integers/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0029-divide-two-integers/</guid>
+      <description>负数域 倍增位移</description>
+      
+    </item>
+    
+    <item>
+      <title>0030 串连所有单词的子串</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0030-substring-with-concatenation-of-all-words/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0030-substring-with-concatenation-of-all-words/</guid>
+      <description>分组滑动窗口</description>
+      
+    </item>
+    
+    <item>
+      <title>0031 下一个排列</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0031-next-permutation/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0031-next-permutation/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0032 最长有效括号</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0032-longest-valid-parentheses/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0032-longest-valid-parentheses/</guid>
+      <description>DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0033 搜索旋转排序数组</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0033-search-in-rotated-sorted-array/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0033-search-in-rotated-sorted-array/</guid>
+      <description>二分</description>
+      
+    </item>
+    
+    <item>
+      <title>0034 在排序数组中查找元素的第一个和最后一个位置</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0034-find-first-and-last-position-of-element-in-sorted-array/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0034-find-first-and-last-position-of-element-in-sorted-array/</guid>
+      <description>二分</description>
+      
+    </item>
+    
+    <item>
+      <title>0035 搜索插入位置</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0035-search-insert-position/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0035-search-insert-position/</guid>
+      <description>二分</description>
+      
+    </item>
+    
+    <item>
+      <title>0036 有效的数独</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0036-valid-sudoku/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0036-valid-sudoku/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0037 解数独</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0037-sudoku-solver/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0037-sudoku-solver/</guid>
+      <description>DFS</description>
+      
+    </item>
+    
+    <item>
+      <title>0038 外观数列</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0038-count-and-say/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0038-count-and-say/</guid>
+      <description>双指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0039 组合总和</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0039-combination-sum/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0039-combination-sum/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0040 数字组合II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0040-combination-sum-ii/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0040-combination-sum-ii/</guid>
+      <description>DFS</description>
+      
+    </item>
+    
+    <item>
+      <title>0041 缺失的第一个正数</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0041-first-missing-positive/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0041-first-missing-positive/</guid>
+      <description>原地哈希</description>
+      
+    </item>
+    
+    <item>
+      <title>0042 接雨水</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0042-trapping-rain-water/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0042-trapping-rain-water/</guid>
+      <description>双指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0043 字符串相乘</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0043-multiply-strings/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0043-multiply-strings/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0044 通配符匹配</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0044-wildcard-matching/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0044-wildcard-matching/</guid>
+      <description>记忆化DFS</description>
+      
+    </item>
+    
+    <item>
+      <title>0045 跳跃游戏</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0045-jump-game-ii/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0045-jump-game-ii/</guid>
+      <description>贪心</description>
+      
+    </item>
+    
+    <item>
+      <title>0046 全排列</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0046-permutations/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0046-permutations/</guid>
+      <description>DFS</description>
+      
+    </item>
+    
+    <item>
+      <title>0047 全排列II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0047-permutations-ii/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0047-permutations-ii/</guid>
+      <description>DFS</description>
+      
+    </item>
+    
+    <item>
+      <title>0048 图像旋转</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0048-rotate-image/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0048-rotate-image/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0049 字母异位词分组</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0049-group-anagrams/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0049-group-anagrams/</guid>
+      <description>哈希</description>
+      
+    </item>
+    
+    <item>
+      <title>0050 快速幂</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0050-powx/</link>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0050-powx/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>N皇后</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0051-n-queens/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0051-n-queens/</guid>
+      <description>DFS回溯</description>
+      
+    </item>
+    
+    <item>
+      <title>0052.N-Queens II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0052-n-queens-ii/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0052-n-queens-ii/</guid>
+      <description>DFS 回溯</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0053-maximum-subarray/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0053-maximum-subarray/</guid>
+      <description>DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0054 螺旋矩阵</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0054-spiral-matrix/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0054-spiral-matrix/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0055 跳跃游戏</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0055-jump-game/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0055-jump-game/</guid>
+      <description>贪心</description>
+      
+    </item>
+    
+    <item>
+      <title>0056 合并区间</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0056-merge-intervals/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0056-merge-intervals/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0057 插入区间</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0057-insert-interval/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0057-insert-interval/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0058 最长一个单词的长度</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0058-length-of-last-word/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0058-length-of-last-word/</guid>
+      <description>双指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0059 螺旋矩阵II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0059-spiral-matrix-ii/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0059-spiral-matrix-ii/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0060 第 K 个区间排列</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0060-permutation-sequence/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0060-permutation-sequence/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0061 旋转链表</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0061-rotate-list/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0061-rotate-list/</guid>
+      <description>快慢指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0062 不同路径</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0062-unique-paths/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0062-unique-paths/</guid>
+      <description>DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0063 不同路径II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0063-unique-paths-ii/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0063-unique-paths-ii/</guid>
+      <description>DP DFS</description>
+      
+    </item>
+    
+    <item>
+      <title>0064 最小路径</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0064-minimum-path-sum/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0064-minimum-path-sum/</guid>
+      <description>DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0065 有效数字</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0065-valid-number/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0065-valid-number/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0066 加一</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0066-plus-one/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0066-plus-one/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0067 二进制求和</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0067-add-binary/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0067-add-binary/</guid>
+      <description>双指针 模</description>
+      
+    </item>
+    
+    <item>
+      <title>0068 文本左右对齐</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0068-text-justification/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0068-text-justification/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0069 x 的平方根</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0069-sqrt/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0069-sqrt/</guid>
+      <description>二分</description>
+      
+    </item>
+    
+    <item>
+      <title>0070 爬楼梯</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0070.climbing-stairs/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0070.climbing-stairs/</guid>
+      <description>DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0071 简化路径</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0071-simplify-path/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0071-simplify-path/</guid>
+      <description>栈</description>
+      
+    </item>
+    
+    <item>
+      <title>0072 编辑距离</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0072-edit-distance/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0072-edit-distance/</guid>
+      <description>DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0073 矩阵置零</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0073-set-matrix-zeroes/</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0073-set-matrix-zeroes/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0074 搜索二维矩阵</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0074-search-a-2d-matrix/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0074-search-a-2d-matrix/</guid>
+      <description>二分</description>
+      
+    </item>
+    
+    <item>
+      <title>0075 颜色分类</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0075-sort-colors/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0075-sort-colors/</guid>
+      <description>三指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0076 最小覆盖子串</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0076-minimum-window-substring/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0076-minimum-window-substring/</guid>
+      <description>滑动窗口</description>
+      
+    </item>
+    
+    <item>
+      <title>0077 组合</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0077-combinations/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0077-combinations/</guid>
+      <description>DFS 回溯</description>
+      
+    </item>
+    
+    <item>
+      <title>0078 子集</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0078-subsets/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0078-subsets/</guid>
+      <description>二叉回溯</description>
+      
+    </item>
+    
+    <item>
+      <title>0079 单词搜索</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0079-word-search/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0079-word-search/</guid>
+      <description>矩阵 DFS 回溯</description>
+      
+    </item>
+    
+    <item>
+      <title>0080 删除有序数组中重复项 II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0080-remove-duplicates-from-sorted-array-ii/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0080-remove-duplicates-from-sorted-array-ii/</guid>
+      <description>快慢指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0081 搜索旋转排序数组 II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0081-search-in-rotated-sorted-array-ii/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0081-search-in-rotated-sorted-array-ii/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0082 删除链表中的重复元素 II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0082-remove-duplicates-from-sorted-list-ii/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0082-remove-duplicates-from-sorted-list-ii/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0083 删除排序链表中重复元素</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0083-remove-duplicates-from-sorted-list/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0083-remove-duplicates-from-sorted-list/</guid>
+      <description>链表</description>
+      
+    </item>
+    
+    <item>
+      <title>0084 柱状图中最大的矩形</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0084-largest-rectangle-in-histogram/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0084-largest-rectangle-in-histogram/</guid>
+      <description>单调栈</description>
+      
+    </item>
+    
+    <item>
+      <title>0085 最大矩形</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0085-maximal-rectangle/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0085-maximal-rectangle/</guid>
+      <description>单调栈</description>
+      
+    </item>
+    
+    <item>
+      <title>0086 分隔链表</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0086-partition-list/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0086-partition-list/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0087 扰乱字符串</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0087-scramble-string/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0087-scramble-string/</guid>
+      <description>记忆化搜索</description>
+      
+    </item>
+    
+    <item>
+      <title>0088 合并两个有序数组</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0088-merge-sorted-array/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0088-merge-sorted-array/</guid>
+      <description>双指针</description>
+      
+    </item>
+    
+    <item>
+      <title>0089 格雷编码</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0089-gray-code/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0089-gray-code/</guid>
+      <description>公式</description>
+      
+    </item>
+    
+    <item>
+      <title>0090 子集 II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0090-subsets-ii/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0090-subsets-ii/</guid>
+      <description>二叉 回溯</description>
+      
+    </item>
+    
+    <item>
+      <title>0091 解码方法</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0091-decode-ways/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0091-decode-ways/</guid>
+      <description>一维DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0092 反转链表 II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0092-reverse-linked-list-ii/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0092-reverse-linked-list-ii/</guid>
+      <description>链表</description>
+      
+    </item>
+    
+    <item>
+      <title>0093 复制 IP 地址</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0093-restore-ip-addresses/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0093-restore-ip-addresses/</guid>
+      <description>回溯</description>
+      
+    </item>
+    
+    <item>
+      <title>0094 二叉树的中序遍历</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0094-binary-tree-inorder-traversal/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0094-binary-tree-inorder-traversal/</guid>
+      <description>二叉树</description>
+      
+    </item>
+    
+    <item>
+      <title>0095 不同的二叉搜索树 II</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0095-unique-binary-search-trees-ii/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0095-unique-binary-search-trees-ii/</guid>
+      <description>区间DFS</description>
+      
+    </item>
+    
+    <item>
+      <title>0096 不同的二叉搜索树</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0096-unique-binary-search-trees/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0096-unique-binary-search-trees/</guid>
+      <description>卡特兰树DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0097 交错字符串</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0097-interleaving-string/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0097-interleaving-string/</guid>
+      <description>记忆化DP</description>
+      
+    </item>
+    
+    <item>
+      <title>0098 验证二叉搜索树</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0098-validate-binary-search-tree/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0098-validate-binary-search-tree/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+    <item>
+      <title>0099 恢复二叉搜索树</title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0099-recover-binary-search-tree/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0001-0099/0099-recover-binary-search-tree/</guid>
+      <description>lc</description>
+      
+    </item>
+    
+  </channel>
+</rss>

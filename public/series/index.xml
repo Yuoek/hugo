@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Dear Yuoek:</title>
+    <link>http://localhost:8081/series/</link>
+    <description>Recent content in Series on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8081/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PHP 学习记录</title>
+      <link>http://localhost:8081/series/php-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/php-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Typescript 学习记录</title>
+      <link>http://localhost:8081/series/typescript-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/typescript-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Javascript 学习记录</title>
+      <link>http://localhost:8081/series/javascript-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/javascript-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vue 学习教程</title>
+      <link>http://localhost:8081/series/vue-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/vue-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nvim 教程</title>
+      <link>http://localhost:8081/series/nvim-%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/nvim-%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tensorflow 学习教程</title>
+      <link>http://localhost:8081/series/tensorflow-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/tensorflow-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Haskell 学习教程</title>
+      <link>http://localhost:8081/series/haskell-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/haskell-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>日记点滴</title>
+      <link>http://localhost:8081/series/%E6%97%A5%E8%AE%B0%E7%82%B9%E6%BB%B4/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/%E6%97%A5%E8%AE%B0%E7%82%B9%E6%BB%B4/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI 教程</title>
+      <link>http://localhost:8081/series/ai-%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/ai-%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Maven 教程</title>
+      <link>http://localhost:8081/series/maven-%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/maven-%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CSS 学习教程</title>
+      <link>http://localhost:8081/series/css-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/css-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Go 学习教程</title>
+      <link>http://localhost:8081/series/go-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/go-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hadoop 学习记录</title>
+      <link>http://localhost:8081/series/hadoop-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/hadoop-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Html 学习教程</title>
+      <link>http://localhost:8081/series/html-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/html-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Spark 学习记录</title>
+      <link>http://localhost:8081/series/spark-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/spark-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>导演学习札记</title>
+      <link>http://localhost:8081/series/%E5%AF%BC%E6%BC%94%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/%E5%AF%BC%E6%BC%94%E5%AD%A6%E4%B9%A0%E6%9C%AD%E8%AE%B0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>自我测试</title>
+      <link>http://localhost:8081/series/%E8%87%AA%E6%88%91%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/%E8%87%AA%E6%88%91%E6%B5%8B%E8%AF%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>时空</title>
+      <link>http://localhost:8081/series/%E6%97%B6%E7%A9%BA/</link>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/%E6%97%B6%E7%A9%BA/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Termux 学习记录</title>
+      <link>http://localhost:8081/series/termux-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/termux-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rust 学习记录</title>
+      <link>http://localhost:8081/series/rust-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/rust-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>草稿</title>
+      <link>http://localhost:8081/series/%E8%8D%89%E7%A8%BF/</link>
+      <pubDate>Sun, 18 Jan 2026 15:10:37 +0800</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/%E8%8D%89%E7%A8%BF/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>给 Sophie 的信 📮</title>
+      <link>http://localhost:8081/series/%E7%BB%99-sophie-%E7%9A%84%E4%BF%A1-/</link>
+      <pubDate>Tue, 16 Sep 2025 18:25:40 +0800</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/%E7%BB%99-sophie-%E7%9A%84%E4%BF%A1-/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo 学习记录</title>
+      <link>http://localhost:8081/series/hugo-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/series/hugo-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

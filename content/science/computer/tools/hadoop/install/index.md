@@ -12,6 +12,8 @@ series_order: 1
 
 * [简介](#简介)
 * [安装](#安装)
+* [课堂安装配置 Hadood](#课堂安装配置-hadood)
+* [安装脚本](#安装脚本)
 
 <!-- mtoc-end -->
 
@@ -199,3 +201,65 @@ http://localhost:8088
 ```
 
 
+## 课堂安装配置 Hadood
+
+hosts 修改映射 ip-用户，然后 ssh 无密。
+下载安装 jdk，hadoop，并写入环境变量。
+配置 hadoop 文件 .xml .sh workers 等。
+启动。
+
+修改 ip 映射
+```bash
+echo -e '192.168.34.143 master\n192.168.47.176 slave1\n192.168.36.107 slave2' >> /etc/hosts
+```
+
+配置 ssh （略）
+
+解压文件
+
+```bash
+tar -zxvf /home/software/jdk-8u212-linux-x64.tar.gz -C /home/java/
+```
+
+```bash
+echo 'export JAVA_HOME=/home/java/jdk1.8.0_212' >> /etc/profile
+echo 'export PATH=$PATH:$JAVA_HOME/bin' >> ~/etc/profile
+```
+
+
+复制配置文件
+```bash
+scp -r /home/java/ root@slave1:/home/
+scp -r /home/java/ root@slave2:/home/
+
+scp -r /etc/profile root@slave1:/etc/
+scp -r /etc/profile root@slave2:/etc/
+
+java -version
+```
+
+
+
+
+## 安装脚本
+```bash
+echo -e '192.168.34.143 master\n192.168.47.176 slave1\n192.168.36.107 slave2' >> /etc/hosts
+
+
+echo 'tar -zxvf /home/software/jdk-8u212-linux-x64.tar.gz -C /home/java/'
+mkdir -p /home/java
+tar -zxvf /home/software/jdk-8u212-linux-x64.tar.gz -C /home/java/
+
+echo 'export JAVA_HOME=/home/java/jdk1.8.0_212' >> /etc/profile
+echo 'export PATH=$PATH:$JAVA_HOME/bin' >> /etc/profile
+
+echo 'scp -r /home/java/ root@slave1:/home/ \n scp -r /home/java/ root@slave2:/home/'
+scp -r /home/java/ root@slave1:/home/
+scp -r /home/java/ root@slave2:/home/
+                                               
+echo 'scp -r /etc/profile root@slave1:/etc/ \n scp -r /etc/profile root@slave2:/etc/'
+scp -r /etc/profile root@slave1:/etc/
+scp -r /etc/profile root@slave2:/etc/
+
+java -version
+```

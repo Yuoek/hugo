@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>String on Dear Yuoek:</title>
+    <link>http://localhost:8081/tags/string/</link>
+    <description>Recent content in String on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <atom:link href="http://localhost:8081/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0205.isomorphic-strings/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0205.isomorphic-strings/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0208.implement-trie-prefix-tree/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0208.implement-trie-prefix-tree/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0211.design-add-and-search-words-data-structure/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0211.design-add-and-search-words-data-structure/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0212.word-search-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0212.word-search-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0214.shortest-palindrome/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0214.shortest-palindrome/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0224.basic-calculator/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0224.basic-calculator/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0227.basic-calculator-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0227.basic-calculator-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0241.different-ways-to-add-parentheses/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0241.different-ways-to-add-parentheses/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0242.valid-anagram/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0242.valid-anagram/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0243.shortest-word-distance/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0243.shortest-word-distance/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0244.shortest-word-distance-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0244.shortest-word-distance-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0245.shortest-word-distance-iii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0245.shortest-word-distance-iii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0246.strobogrammatic-number/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0246.strobogrammatic-number/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0247.strobogrammatic-number-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0247.strobogrammatic-number-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0248.strobogrammatic-number-iii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0248.strobogrammatic-number-iii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0249.group-shifted-strings/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0249.group-shifted-strings/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0257.binary-tree-paths/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0257.binary-tree-paths/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0266.palindrome-permutation/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0266.palindrome-permutation/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0267.palindrome-permutation-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0267.palindrome-permutation-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0269.alien-dictionary/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0269.alien-dictionary/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0271.encode-and-decode-strings/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0271.encode-and-decode-strings/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0273.integer-to-english-words/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0273.integer-to-english-words/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0282.expression-add-operators/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0282.expression-add-operators/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0288.unique-word-abbreviation/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0288.unique-word-abbreviation/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0290.word-pattern/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0290.word-pattern/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0291.word-pattern-ii/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0291.word-pattern-ii/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0293.flip-game/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0293.flip-game/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0297.serialize-and-deserialize-binary-tree/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0297.serialize-and-deserialize-binary-tree/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0299.bulls-and-cows/readme_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0299.bulls-and-cows/readme_en/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

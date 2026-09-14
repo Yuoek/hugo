@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Dear Yuoek:</title>
+    <link>http://localhost:8081/science/computer/program/javascript/</link>
+    <description>Recent content in javascript on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8081/science/computer/program/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>BOM</title>
+      <link>http://localhost:8081/science/computer/program/javascript/11-bom/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/11-bom/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cookies</title>
+      <link>http://localhost:8081/science/computer/program/javascript/10-cookies/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/10-cookies/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DOM</title>
+      <link>http://localhost:8081/science/computer/program/javascript/16-dom/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/16-dom/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Web API</title>
+      <link>http://localhost:8081/science/computer/program/javascript/12-web-api/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/12-web-api/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>对象</title>
+      <link>http://localhost:8081/science/computer/program/javascript/06-object/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/06-object/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>函数</title>
+      <link>http://localhost:8081/science/computer/program/javascript/05-function/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/05-function/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>历史版本</title>
+      <link>http://localhost:8081/science/computer/program/javascript/08-version/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/08-version/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>内置对象</title>
+      <link>http://localhost:8081/science/computer/program/javascript/07-object-oriented/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/07-object-oriented/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>事件</title>
+      <link>http://localhost:8081/science/computer/program/javascript/13-events/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/13-events/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>异步</title>
+      <link>http://localhost:8081/science/computer/program/javascript/09-asynchronous/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/09-asynchronous/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>异常</title>
+      <link>http://localhost:8081/science/computer/program/javascript/14-error/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/14-error/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>重要的关键字</title>
+      <link>http://localhost:8081/science/computer/program/javascript/15-key/</link>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/15-key/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Placement</title>
+      <link>http://localhost:8081/science/computer/program/javascript/01-placment/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/01-placment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>基础</title>
+      <link>http://localhost:8081/science/computer/program/javascript/02-basic/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/02-basic/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>流程控制</title>
+      <link>http://localhost:8081/science/computer/program/javascript/04-control-flow/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/04-control-flow/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>运算</title>
+      <link>http://localhost:8081/science/computer/program/javascript/03-operators/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/03-operators/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>toc</title>
+      <link>http://localhost:8081/science/computer/program/javascript/toc/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/javascript/toc/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

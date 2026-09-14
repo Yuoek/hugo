@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>设计 on Dear Yuoek:</title>
+    <link>http://localhost:8081/tags/%E8%AE%BE%E8%AE%A1/</link>
+    <description>Recent content in 设计 on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <atom:link href="http://localhost:8081/tags/%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0208.implement-trie-prefix-tree/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0208.implement-trie-prefix-tree/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0211.design-add-and-search-words-data-structure/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0211.design-add-and-search-words-data-structure/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0225.implement-stack-using-queues/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0225.implement-stack-using-queues/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0232.implement-queue-using-stacks/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0232.implement-queue-using-stacks/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0244.shortest-word-distance-ii/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0244.shortest-word-distance-ii/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0251.flatten-2d-vector/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0251.flatten-2d-vector/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0271.encode-and-decode-strings/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0271.encode-and-decode-strings/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0281.zigzag-iterator/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0281.zigzag-iterator/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0284.peeking-iterator/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0284.peeking-iterator/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0288.unique-word-abbreviation/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0288.unique-word-abbreviation/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0295.find-median-from-data-stream/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0295.find-median-from-data-stream/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0297.serialize-and-deserialize-binary-tree/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/algorithm/leetcode/0200-0299/0297.serialize-and-deserialize-binary-tree/readme/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

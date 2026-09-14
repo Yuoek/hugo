@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue 学习教程 on Dear Yuoek:</title>
+    <link>http://localhost:8081/series/vue-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in Vue 学习教程 on Dear Yuoek:</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>yuoek@yuoek.icu (Yuoek)</managingEditor>
+    <webMaster>yuoek@yuoek.icu (Yuoek)</webMaster>
+    <copyright>© 2026 Yuoek</copyright>
+    <lastBuildDate>Fri, 04 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:8081/series/vue-%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>安装</title>
+      <link>http://localhost:8081/science/computer/program/vue/install/</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/vue/install/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>目录</title>
+      <link>http://localhost:8081/science/computer/program/vue/toc/</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <author>yuoek@yuoek.icu (Yuoek)</author>
+      <guid>http://localhost:8081/science/computer/program/vue/toc/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
