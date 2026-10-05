@@ -1,0 +1,51 @@
+---
+title: 0322 零钱兑换
+date: 2026-09-16
+---
+
+## Solution
+
+```python
+from typing import List
+from math import inf
+
+class Solution:
+    def coinChange(self, coins: List[int], amount: int) -> int:
+        m, n = len(coins), amount
+        f = [[inf] * (n + 1) for _ in range(m + 1)]
+        f[0][0] = 0
+        for i, x in enumerate(coins, 1):
+            for j in range(n + 1):
+                f[i][j] = f[i - 1][j]
+                if j >= x:
+                    f[i][j] = min(f[i][j], f[i][j - x] + 1)
+        return -1 if f[m][n] >= inf else f[m][n]
+
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.coinChange([1,2,5], 11)) # 3
+    print(sol.coinChange([2], 3))       # -1
+    print(sol.coinChange([1], 0))       # 0
+```
+
+## Solution 2
+
+```python
+from typing import List
+from math import inf
+
+class Solution:
+    def coinChange(self, coins: List[int], amount: int) -> int:
+        n = amount
+        f = [0] + [inf] * n
+        for x in coins:
+            for j in range(x, n + 1):
+                f[j] = min(f[j], f[j - x] + 1)
+        return -1 if f[n] >= inf else f[n]
+
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.coinChange([1,2,5], 11)) # 3
+    print(sol.coinChange([2], 3))      # -1
+    print(sol.coinChange([1], 0))      # 0
+```

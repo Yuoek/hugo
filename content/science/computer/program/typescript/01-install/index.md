@@ -123,7 +123,6 @@ console.log(doSome.do());
 ```
 
 继承 inheritance
-
 ```ts
 class Person {
     name: string;
